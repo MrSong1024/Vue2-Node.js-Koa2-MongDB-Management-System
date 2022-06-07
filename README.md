@@ -288,4 +288,4 @@
 
 <u>如需操作【短信发送平台】相关操作，可注册新账号，加下方群号，联系管理员绑定相应权限即可。</u>
 
-QQ 群：[![加入QQ群](https://img.shields.io/badge/305564464-blue.svg)](https://jq.qq.com/?_wv=1027&k=ciQISIJ7) 点击按钮入群。
+QQ 群：[![加入QQ群](https://img.shields.io/badge/305564464-blue.svg)](https://jq.qq.com/?_wv=1027&k=ciQISIJ7) （305564464）点击按钮入群。
