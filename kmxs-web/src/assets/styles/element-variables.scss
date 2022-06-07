@@ -1,0 +1,34 @@
+/* Element-ui 自定义主题颜色变量 */
+// 主题色
+$--color-primary: #2761ff;
+$--color-success: #13ce66;
+$--color-warning: #FFBA00;
+$--color-danger: #ff4949;
+$--color-info: #1E1E1E;
+
+// 文字颜色
+$--color-text-primary: #333333;
+$--color-text-regular: #606266;
+$--color-text-secondary: #909399;
+$--color-text-placeholder: #C0C4CC;
+
+// 边框颜色
+$--border-color: #EEEEEE;
+$--border-color-light: #dfe4ed;
+$--border-color-lighter: #e6ebf5;
+
+// table表格
+$--table-border:1px solid #dfe6ec;
+
+// 按钮
+$--button-font-weight: 400;
+
+/* 字体图标路径 */
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+// 引入ElementUI 样式
+@import "~element-ui/packages/theme-chalk/src/index";
+
+:export {
+  theme: $--color-primary;
+}

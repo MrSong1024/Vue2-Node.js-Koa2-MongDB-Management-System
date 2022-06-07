@@ -1,0 +1,50 @@
+[{
+  "_id": {
+    "$oid": "627c78447c5e838b24cff80d"
+  },
+  "isInclude": [
+    "1",
+    "2",
+    "0"
+  ],
+  "bigLength": 24,
+  "smallLength": 6,
+  "useShortTime": 1,
+  "useLongTime": 90,
+  "useHistoryTimes": 5,
+  "createTime": {
+    "$date": "2022-05-12T03:00:20.874Z"
+  },
+  "updateTime": {
+    "$date": "2022-05-13T15:56:23.438Z"
+  },
+  "__v": 0,
+  "updateBy": "admin",
+  "continuityTimes": 4,
+  "repeatTimes": 4,
+  "isWeak": true,
+  "isIncludes": [
+    {
+      "_id": "627c71307f55e48a54d3d6ea",
+      "label": "包含英文小写字母(a 到 z)",
+      "value": "1",
+      "status": "0",
+      "remark": ".*[a-z]+.*"
+    },
+    {
+      "_id": "627c71307f55e48a54d3d6eb",
+      "label": "包含10 个基本数字(0 到 9)",
+      "value": "2",
+      "status": "0",
+      "remark": ".*[0-9]+.*"
+    },
+    {
+      "_id": "627c71307f55e48a54d3d6e9",
+      "label": "包含英文大写字母(A 到 Z)",
+      "value": "0",
+      "status": "0",
+      "remark": ".*[A-Z]+.*"
+    }
+  ],
+  "isIncludeAccount": true
+}]

@@ -1,0 +1,40 @@
+// 域名管理 、 字典管理 弹窗内按钮
+.dialogLong {
+  .long {
+    margin-bottom: 10px;
+
+    &:nth-last-of-type(1) {
+      margin-bottom: 0;
+    }
+  }
+
+  .changebtn {
+    &:hover {
+      color: #2761ff;
+    }
+  }
+}
+
+// 密码策略
+.policy {
+  .p-item {
+    display: flex;
+    align-items: center;
+    color: #666666;
+
+    .p-input {
+      width: 120px;
+      margin: 0 6px;
+    }
+
+    span {
+      padding-left: 5px;
+      color: #999;
+      font-size: 12px;
+    }
+  }
+
+  .el-checkbox {
+    display: block;
+  }
+}

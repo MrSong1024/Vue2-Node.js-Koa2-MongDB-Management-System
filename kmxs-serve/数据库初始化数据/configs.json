@@ -1,0 +1,97 @@
+[{
+  "_id": {
+    "$oid": "6217a127e0066b55b059b0b4"
+  },
+  "configName": "短信费用",
+  "configKey": "system.sms.price",
+  "configValue": "0.6",
+  "remark": "设置每条短信的费用",
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-02-24T15:15:51Z"
+  },
+  "__v": 0,
+  "configSort": "1",
+  "updateBy": "admin",
+  "updateTime": {
+    "$date": "2022-04-11T14:57:22.402Z"
+  },
+  "status": "0",
+  "orderNum": 1
+},{
+  "_id": {
+    "$oid": "62639e35d058f237804b5549"
+  },
+  "configName": "项目版本号",
+  "configKey": "system.version.no",
+  "configValue": "v1.5.3",
+  "orderNum": 999,
+  "status": "0",
+  "remark": "",
+  "createBy": "songjq",
+  "createTime": {
+    "$date": "2022-04-23T06:35:32.992Z"
+  },
+  "updateTime": {
+    "$date": "2022-05-13T17:11:10.617Z"
+  },
+  "__v": 0,
+  "updateBy": "admin"
+},{
+  "_id": {
+    "$oid": "6275e42946510e351cb686be"
+  },
+  "configName": "每日IP发送短信限制",
+  "configKey": "system.sms.ip.count",
+  "configValue": "1",
+  "orderNum": 999,
+  "status": "0",
+  "remark": "",
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-04-23T06:35:32.992Z"
+  },
+  "updateTime": {
+    "$date": "2022-04-27T06:39:10.478Z"
+  },
+  "__v": 0,
+  "updateBy": "admin"
+},{
+  "_id": {
+    "$oid": "6275e45746510e351cb686c1"
+  },
+  "configName": "每日手机发送短信限制",
+  "configKey": "system.sms.phone.count",
+  "configValue": "1",
+  "orderNum": 999,
+  "status": "0",
+  "remark": "",
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-04-23T06:35:32.992Z"
+  },
+  "updateTime": {
+    "$date": "2022-04-27T06:39:10.478Z"
+  },
+  "__v": 0,
+  "updateBy": "admin"
+},{
+  "_id": {
+    "$oid": "6275e50346510e351cb686c4"
+  },
+  "configName": "发送邮件频率单位时间（分钟）",
+  "configKey": "system.email.min",
+  "configValue": "1",
+  "orderNum": 999,
+  "status": "0",
+  "remark": "",
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-04-23T06:35:32.992Z"
+  },
+  "updateTime": {
+    "$date": "2022-04-27T06:39:10.478Z"
+  },
+  "__v": 0,
+  "updateBy": "admin"
+}]

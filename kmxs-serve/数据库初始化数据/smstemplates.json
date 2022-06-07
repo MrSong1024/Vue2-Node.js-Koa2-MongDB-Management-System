@@ -1,0 +1,41 @@
+[{
+  "_id": {
+    "$oid": "6239ea823931cb4ee8a61093"
+  },
+  "createBy": "admin",
+  "templateName": "孔明先生后台系统专用",
+  "templateSign": "孔明先生",
+  "templateContent": "尊敬的孔明先生后台系统会员，此条信息为测试短信内容，请勿回复。",
+  "templateType": "0",
+  "variable": "",
+  "status": "2",
+  "smsInfo": "31个字符,拆分1条短信",
+  "smsLength": 31,
+  "smsCounts": 1,
+  "remark": "",
+  "createTime": {
+    "$date": "2022-03-22T15:25:54.776Z"
+  },
+  "__v": 0,
+  "templateId": 1167356
+},{
+  "_id": {
+    "$oid": "62761a1150feee63fc204ce3"
+  },
+  "smsLength": 35,
+  "smsCounts": 1,
+  "createBy": "admin",
+  "templateName": "云通讯短信验证码",
+  "templateSign": "云通讯",
+  "templateContent": "您使用的是云通讯短信模板，您的验证码是{1}，请于{2}分钟内正确输入",
+  "templateType": "1",
+  "variable": "变量1：验证码，变量2：有效时间",
+  "status": "2",
+  "smsInfo": "35个字符,拆分1条短信",
+  "remark": "",
+  "createTime": {
+    "$date": "2022-05-07T07:04:49.277Z"
+  },
+  "__v": 0,
+  "templateId": 1
+}]

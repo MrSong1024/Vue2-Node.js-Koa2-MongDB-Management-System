@@ -1,0 +1,23 @@
+[{
+  "_id": {
+    "$oid": "626ebd118d1cae3eb0b393dc"
+  },
+  "isSecondAuthType": [
+    "4",
+    "3"
+  ],
+  "isRemote": true,
+  "isLoginNotice": true,
+  "noticeType": "1",
+  "isSecondAuth": false,
+  "createTime": {
+    "$date": "2022-05-01T17:02:09.642Z"
+  },
+  "updateTime": {
+    "$date": "2022-05-16T02:19:22.113Z"
+  },
+  "__v": 0,
+  "updateBy": "admin",
+  "authTime": "7",
+  "onceOnline": true
+}]

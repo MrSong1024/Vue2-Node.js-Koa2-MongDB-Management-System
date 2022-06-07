@@ -1,0 +1,3825 @@
+[{
+  "_id": {
+    "$oid": "61d3b2956f283b4f64c57976"
+  },
+  "children": [],
+  "parentId": "0",
+  "menuName": "域名管理",
+  "menuType": "M",
+  "component": "Layout",
+  "componentName": "",
+  "path": "/domain",
+  "permission": "domain",
+  "hidden": false,
+  "icon": "chain",
+  "menuSort": 2,
+  "status": "0",
+  "createBy": "songjq",
+  "createTime": {
+    "$date": "2022-01-04T02:36:05Z"
+  },
+  "__v": 0,
+  "menuId": null,
+  "remark": null,
+  "updateBy": "admin",
+  "updateTime": {
+    "$date": "2022-04-11T14:47:37.231Z"
+  },
+  "parentName": null,
+  "meta": {
+    "title": "域名管理",
+    "icon": "chain",
+    "noCache": true
+  },
+  "alwaysShow": true,
+  "redirect": "domain/dns",
+  "orderNum": 5
+},{
+  "_id": {
+    "$oid": "61d3f65e2106283dd4ec3f09"
+  },
+  "children": [],
+  "parentId": "61d3b2956f283b4f64c57976",
+  "parentName": "域名管理",
+  "menuName": "长链接绑定",
+  "menuType": "C",
+  "component": "domain/dns",
+  "componentName": "Dns",
+  "path": "dns",
+  "permission": "dns:list",
+  "hidden": false,
+  "icon": "",
+  "menuSort": 1,
+  "status": "0",
+  "createBy": "songjq",
+  "createTime": {
+    "$date": "2022-01-04T07:25:18.914Z"
+  },
+  "__v": 0,
+  "menuId": null,
+  "remark": null,
+  "updateBy": "admin",
+  "updateTime": {
+    "$date": "2022-04-11T14:51:43.010Z"
+  },
+  "meta": {
+    "title": "长链接绑定",
+    "icon": "",
+    "noCache": true
+  },
+  "alwaysShow": false,
+  "redirect": null,
+  "orderNum": 1
+},{
+  "_id": {
+    "$oid": "61d4061d82b6625518cc6c69"
+  },
+  "children": [],
+  "parentId": "61d3f65e2106283dd4ec3f09",
+  "parentName": "长链接绑定",
+  "menuName": "新增",
+  "menuType": "B",
+  "component": "",
+  "componentName": "",
+  "path": "",
+  "permission": "dns:add",
+  "hidden": true,
+  "icon": "",
+  "menuSort": "3",
+  "status": "0",
+  "createBy": "songjq",
+  "createTime": {
+    "$date": "2022-01-04T08:32:29.316Z"
+  },
+  "__v": 0,
+  "menuId": null,
+  "remark": null,
+  "updateBy": "songjq",
+  "updateTime": {
+    "$date": "2022-01-08T09:09:42.815Z"
+  },
+  "meta": {
+    "title": "新增",
+    "icon": "",
+    "noCache": true
+  },
+  "alwaysShow": true,
+  "redirect": null
+},{
+  "_id": {
+    "$oid": "61d4063282b6625518cc6c6b"
+  },
+  "children": [],
+  "parentId": "61d3f65e2106283dd4ec3f09",
+  "parentName": "长链接绑定",
+  "menuName": "编辑",
+  "menuType": "B",
+  "component": "",
+  "componentName": "",
+  "path": "",
+  "permission": "dns:edit",
+  "hidden": true,
+  "icon": "",
+  "menuSort": "1",
+  "status": "0",
+  "createBy": "songjq",
+  "createTime": {
+    "$date": "2022-01-04T08:32:50.543Z"
+  },
+  "__v": 0,
+  "menuId": null,
+  "remark": null,
+  "updateBy": "songjq",
+  "updateTime": {
+    "$date": "2022-01-06T13:17:51.409Z"
+  },
+  "meta": {
+    "title": "编辑",
+    "icon": "",
+    "noCache": true
+  },
+  "alwaysShow": false,
+  "redirect": null
+},{
+  "_id": {
+    "$oid": "61d4064382b6625518cc6c6d"
+  },
+  "children": [],
+  "parentId": "61d3f65e2106283dd4ec3f09",
+  "parentName": "长链接绑定",
+  "menuName": "删除",
+  "menuType": "B",
+  "component": "",
+  "componentName": "",
+  "path": "",
+  "permission": "dns:del",
+  "hidden": true,
+  "icon": "",
+  "menuSort": "4",
+  "status": "0",
+  "createBy": "songjq",
+  "createTime": {
+    "$date": "2022-01-04T08:33:07.990Z"
+  },
+  "__v": 0,
+  "menuId": null,
+  "remark": null,
+  "updateBy": "songjq",
+  "updateTime": {
+    "$date": "2022-01-05T07:15:37.605Z"
+  },
+  "meta": {
+    "title": "删除",
+    "icon": "",
+    "noCache": true
+  },
+  "alwaysShow": null,
+  "redirect": null
+},{
+  "_id": {
+    "$oid": "61d5010ac7699e382c6cc12c"
+  },
+  "children": [],
+  "parentId": "0",
+  "parentName": "",
+  "menuName": "系统管理",
+  "menuType": "M",
+  "component": "Layout",
+  "componentName": "",
+  "path": "/system",
+  "permission": "system",
+  "hidden": false,
+  "icon": "system",
+  "menuSort": 9,
+  "status": "0",
+  "remark": "",
+  "alwaysShow": true,
+  "redirect": "system/users",
+  "meta": {
+    "title": "系统管理",
+    "icon": "system",
+    "noCache": true
+  },
+  "createBy": "songjq",
+  "createTime": {
+    "$date": "2022-01-05T02:23:06Z"
+  },
+  "__v": 0,
+  "menuId": null,
+  "updateBy": "admin",
+  "updateTime": {
+    "$date": "2022-04-11T14:49:15.241Z"
+  },
+  "orderNum": 988
+},{
+  "_id": {
+    "$oid": "61d50177c7699e382c6cc12e"
+  },
+  "children": [],
+  "parentId": "61d5010ac7699e382c6cc12c",
+  "parentName": "系统菜单",
+  "menuName": "用户管理",
+  "menuType": "C",
+  "component": "system/users",
+  "componentName": "Users",
+  "path": "users",
+  "permission": "users:list",
+  "hidden": false,
+  "icon": "",
+  "menuSort": 1,
+  "status": "0",
+  "remark": "",
+  "alwaysShow": false,
+  "redirect": "",
+  "meta": {
+    "title": "用户管理",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "songjq",
+  "createTime": {
+    "$date": "2022-01-05T02:24:55.370Z"
+  },
+  "__v": 0,
+  "updateBy": "admin",
+  "updateTime": {
+    "$date": "2022-04-11T14:53:03.521Z"
+  },
+  "menuId": null,
+  "orderNum": 1
+},{
+  "_id": {
+    "$oid": "61d501e7c7699e382c6cc130"
+  },
+  "children": [],
+  "parentId": "61d5010ac7699e382c6cc12c",
+  "parentName": "系统菜单",
+  "menuName": "字典管理",
+  "menuType": "C",
+  "component": "system/dicts",
+  "componentName": "Dicts",
+  "path": "dicts",
+  "permission": "dicts:list",
+  "hidden": false,
+  "icon": "",
+  "menuSort": 1,
+  "status": "0",
+  "remark": "",
+  "alwaysShow": false,
+  "redirect": "",
+  "meta": {
+    "title": "字典管理",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "songjq",
+  "createTime": {
+    "$date": "2022-01-05T02:26:47.319Z"
+  },
+  "__v": 0,
+  "menuId": null,
+  "orderNum": 6,
+  "updateBy": "admin",
+  "updateTime": {
+    "$date": "2022-04-11T14:53:51.672Z"
+  }
+},{
+  "_id": {
+    "$oid": "61d5066dc7699e382c6cc132"
+  },
+  "children": [],
+  "parentId": "61d5010ac7699e382c6cc12c",
+  "parentName": "系统菜单",
+  "menuName": "角色管理",
+  "menuType": "C",
+  "component": "system/roles",
+  "componentName": "Roles",
+  "path": "roles",
+  "permission": "roles:list",
+  "hidden": false,
+  "icon": "",
+  "menuSort": 1,
+  "status": "0",
+  "remark": "",
+  "alwaysShow": false,
+  "redirect": "",
+  "meta": {
+    "title": "角色管理",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "songjq",
+  "createTime": {
+    "$date": "2022-01-05T02:46:05.738Z"
+  },
+  "__v": 0,
+  "menuId": null,
+  "orderNum": 2,
+  "updateBy": "admin",
+  "updateTime": {
+    "$date": "2022-04-11T14:53:27.213Z"
+  }
+},{
+  "_id": {
+    "$oid": "61d506a7c7699e382c6cc134"
+  },
+  "children": [],
+  "parentId": "61d5010ac7699e382c6cc12c",
+  "parentName": "系统菜单",
+  "menuName": "菜单管理",
+  "menuType": "C",
+  "component": "system/menus",
+  "componentName": "Menus",
+  "path": "menus",
+  "permission": "menus:list",
+  "hidden": false,
+  "icon": "",
+  "menuSort": 1,
+  "status": "0",
+  "remark": "",
+  "alwaysShow": false,
+  "redirect": "",
+  "meta": {
+    "title": "菜单管理",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "songjq",
+  "createTime": {
+    "$date": "2022-01-05T02:47:03.726Z"
+  },
+  "__v": 0,
+  "menuId": null,
+  "orderNum": 5,
+  "updateBy": "admin",
+  "updateTime": {
+    "$date": "2022-04-11T14:53:41.505Z"
+  }
+},{
+  "_id": {
+    "$oid": "61d5070fc7699e382c6cc136"
+  },
+  "children": [],
+  "parentId": "0",
+  "menuName": "日志管理",
+  "menuType": "M",
+  "component": "Layout",
+  "componentName": "",
+  "path": "/log",
+  "permission": "log",
+  "hidden": false,
+  "icon": "education",
+  "menuSort": 20,
+  "status": "0",
+  "remark": "",
+  "alwaysShow": true,
+  "redirect": "log/operlog",
+  "meta": {
+    "title": "日志管理",
+    "icon": "education",
+    "noCache": true
+  },
+  "createBy": "songjq",
+  "createTime": {
+    "$date": "2022-01-05T02:48:47Z"
+  },
+  "__v": 0,
+  "menuId": null,
+  "parentName": null,
+  "updateBy": "admin",
+  "updateTime": {
+    "$date": "2022-04-11T14:48:50.855Z"
+  },
+  "orderNum": 900
+},{
+  "_id": {
+    "$oid": "61d50753c7699e382c6cc138"
+  },
+  "children": [],
+  "parentId": "61d5070fc7699e382c6cc136",
+  "parentName": "日志管理",
+  "menuName": "操作日志",
+  "menuType": "C",
+  "component": "log/operlog",
+  "componentName": "Operlog",
+  "path": "operlog",
+  "permission": "operlog:list",
+  "hidden": false,
+  "icon": "",
+  "menuSort": 1,
+  "status": "0",
+  "remark": "",
+  "alwaysShow": false,
+  "redirect": "",
+  "meta": {
+    "title": "操作日志",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "songjq",
+  "createTime": {
+    "$date": "2022-01-05T02:49:55.483Z"
+  },
+  "__v": 0,
+  "menuId": null,
+  "orderNum": 999,
+  "updateBy": "admin",
+  "updateTime": {
+    "$date": "2022-04-11T14:52:48.948Z"
+  }
+},{
+  "_id": {
+    "$oid": "61d507f1c7699e382c6cc13a"
+  },
+  "children": [],
+  "parentId": "61d5070fc7699e382c6cc136",
+  "parentName": "日志管理",
+  "menuName": "登录日志",
+  "menuType": "C",
+  "component": "log/loginlog",
+  "componentName": "Loginlog",
+  "path": "loginlog",
+  "permission": "loginlog:list",
+  "hidden": false,
+  "icon": "",
+  "menuSort": 1,
+  "status": "0",
+  "remark": "",
+  "alwaysShow": false,
+  "redirect": "",
+  "meta": {
+    "title": "登录日志",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "songjq",
+  "createTime": {
+    "$date": "2022-01-05T02:52:33.783Z"
+  },
+  "__v": 0,
+  "menuId": null,
+  "updateBy": "admin",
+  "updateTime": {
+    "$date": "2022-04-11T14:52:38.088Z"
+  },
+  "orderNum": 1
+},{
+  "_id": {
+    "$oid": "61d543b4c7699e382c6cc14a"
+  },
+  "children": [],
+  "parentId": "61d50753c7699e382c6cc138",
+  "parentName": "操作日志",
+  "menuName": "删除",
+  "menuType": "B",
+  "component": "",
+  "componentName": "",
+  "path": "",
+  "permission": "operlog:del",
+  "hidden": true,
+  "icon": "",
+  "menuSort": "1",
+  "status": "0",
+  "remark": "",
+  "alwaysShow": false,
+  "redirect": "",
+  "meta": {
+    "title": "删除",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "songjq",
+  "createTime": {
+    "$date": "2022-01-05T07:07:32.023Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61d543cfc7699e382c6cc14c"
+  },
+  "children": [],
+  "parentId": "61d50753c7699e382c6cc138",
+  "parentName": "操作日志",
+  "menuName": "详细",
+  "menuType": "B",
+  "component": "",
+  "componentName": "",
+  "path": "",
+  "permission": "operlog:detial",
+  "hidden": true,
+  "icon": "",
+  "menuSort": "1",
+  "status": "0",
+  "remark": "",
+  "alwaysShow": false,
+  "redirect": "",
+  "meta": {
+    "title": "详细",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "songjq",
+  "createTime": {
+    "$date": "2022-01-05T07:07:59.475Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61d543f3c7699e382c6cc14e"
+  },
+  "children": [],
+  "parentId": "61d507f1c7699e382c6cc13a",
+  "parentName": "登录日志",
+  "menuName": "删除",
+  "menuType": "B",
+  "component": "",
+  "componentName": "",
+  "path": "",
+  "permission": "loginlog:del",
+  "hidden": true,
+  "icon": "",
+  "menuSort": "1",
+  "status": "0",
+  "remark": "",
+  "alwaysShow": false,
+  "redirect": "",
+  "meta": {
+    "title": "删除",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "songjq",
+  "createTime": {
+    "$date": "2022-01-05T07:08:35.598Z"
+  },
+  "__v": 0,
+  "updateBy": "admin",
+  "updateTime": {
+    "$date": "2022-03-31T11:07:44.963Z"
+  }
+},{
+  "_id": {
+    "$oid": "61d5441fc7699e382c6cc150"
+  },
+  "children": [],
+  "parentId": "61d50177c7699e382c6cc12e",
+  "parentName": "用户管理",
+  "menuName": "新增",
+  "menuType": "B",
+  "component": "",
+  "componentName": "",
+  "path": "",
+  "permission": "users:add",
+  "hidden": true,
+  "icon": "",
+  "menuSort": "1",
+  "status": "0",
+  "remark": "",
+  "alwaysShow": false,
+  "redirect": "",
+  "meta": {
+    "title": "新增",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "songjq",
+  "createTime": {
+    "$date": "2022-01-05T07:09:19.138Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61d54436c7699e382c6cc152"
+  },
+  "children": [],
+  "parentId": "61d50177c7699e382c6cc12e",
+  "parentName": "用户管理",
+  "menuName": "编辑",
+  "menuType": "B",
+  "component": "",
+  "componentName": "",
+  "path": "",
+  "permission": "users:edit",
+  "hidden": true,
+  "icon": "",
+  "menuSort": "1",
+  "status": "0",
+  "remark": "",
+  "alwaysShow": false,
+  "redirect": "",
+  "meta": {
+    "title": "编辑",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "songjq",
+  "createTime": {
+    "$date": "2022-01-05T07:09:42.618Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61d54448c7699e382c6cc154"
+  },
+  "children": [],
+  "parentId": "61d50177c7699e382c6cc12e",
+  "parentName": "用户管理",
+  "menuName": "删除",
+  "menuType": "B",
+  "component": "",
+  "componentName": "",
+  "path": "",
+  "permission": "users:del",
+  "hidden": true,
+  "icon": "",
+  "menuSort": "1",
+  "status": "0",
+  "remark": "",
+  "alwaysShow": false,
+  "redirect": "",
+  "meta": {
+    "title": "删除",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "songjq",
+  "createTime": {
+    "$date": "2022-01-05T07:10:00.253Z"
+  },
+  "__v": 0,
+  "updateBy": "songjq",
+  "updateTime": {
+    "$date": "2022-01-21T01:17:57.856Z"
+  }
+},{
+  "_id": {
+    "$oid": "61d54461c7699e382c6cc156"
+  },
+  "children": [],
+  "parentId": "61d50177c7699e382c6cc12e",
+  "parentName": "用户管理",
+  "menuName": "重置密码",
+  "menuType": "B",
+  "component": "",
+  "componentName": "",
+  "path": "",
+  "permission": "users:reset",
+  "hidden": true,
+  "icon": "",
+  "menuSort": "1",
+  "status": "0",
+  "remark": "",
+  "alwaysShow": false,
+  "redirect": "",
+  "meta": {
+    "title": "重置密码",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "songjq",
+  "createTime": {
+    "$date": "2022-01-05T07:10:25.131Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61d5447dc7699e382c6cc158"
+  },
+  "children": [],
+  "parentId": "61d501e7c7699e382c6cc130",
+  "parentName": "字典管理",
+  "menuName": "新增",
+  "menuType": "B",
+  "component": "",
+  "componentName": "",
+  "path": "",
+  "permission": "dicts:add",
+  "hidden": true,
+  "icon": "",
+  "menuSort": "1",
+  "status": "0",
+  "remark": "",
+  "alwaysShow": false,
+  "redirect": "",
+  "meta": {
+    "title": "新增",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "songjq",
+  "createTime": {
+    "$date": "2022-01-05T07:10:53.466Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61d54490c7699e382c6cc15a"
+  },
+  "children": [],
+  "parentId": "61d501e7c7699e382c6cc130",
+  "parentName": "字典管理",
+  "menuName": "编辑",
+  "menuType": "B",
+  "component": "",
+  "componentName": "",
+  "path": "",
+  "permission": "dicts:edit",
+  "hidden": true,
+  "icon": "",
+  "menuSort": "1",
+  "status": "0",
+  "remark": "",
+  "alwaysShow": false,
+  "redirect": "",
+  "meta": {
+    "title": "编辑",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "songjq",
+  "createTime": {
+    "$date": "2022-01-05T07:11:12.428Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61d544a6c7699e382c6cc15c"
+  },
+  "children": [],
+  "parentId": "61d501e7c7699e382c6cc130",
+  "parentName": "字典管理",
+  "menuName": "删除",
+  "menuType": "B",
+  "component": "",
+  "componentName": "",
+  "path": "",
+  "permission": "dicts:del",
+  "hidden": true,
+  "icon": "",
+  "menuSort": "1",
+  "status": "0",
+  "remark": "",
+  "alwaysShow": false,
+  "redirect": "",
+  "meta": {
+    "title": "删除",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "songjq",
+  "createTime": {
+    "$date": "2022-01-05T07:11:34.028Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61d544c9c7699e382c6cc15e"
+  },
+  "children": [],
+  "parentId": "61d5066dc7699e382c6cc132",
+  "parentName": "角色管理",
+  "menuName": "新增",
+  "menuType": "B",
+  "component": "",
+  "componentName": "",
+  "path": "",
+  "permission": "roles:add",
+  "hidden": true,
+  "icon": "",
+  "menuSort": "1",
+  "status": "0",
+  "remark": "",
+  "alwaysShow": false,
+  "redirect": "",
+  "meta": {
+    "title": "新增",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "songjq",
+  "createTime": {
+    "$date": "2022-01-05T07:12:09.443Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61d544dec7699e382c6cc160"
+  },
+  "children": [],
+  "parentId": "61d5066dc7699e382c6cc132",
+  "parentName": "角色管理",
+  "menuName": "编辑",
+  "menuType": "B",
+  "component": "",
+  "componentName": "",
+  "path": "",
+  "permission": "roles:edit",
+  "hidden": true,
+  "icon": "",
+  "menuSort": "1",
+  "status": "0",
+  "remark": "",
+  "alwaysShow": false,
+  "redirect": "",
+  "meta": {
+    "title": "编辑",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "songjq",
+  "createTime": {
+    "$date": "2022-01-05T07:12:30.246Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61d544f1c7699e382c6cc162"
+  },
+  "children": [],
+  "parentId": "61d5066dc7699e382c6cc132",
+  "parentName": "角色管理",
+  "menuName": "删除",
+  "menuType": "B",
+  "component": "",
+  "componentName": "",
+  "path": "",
+  "permission": "roles:del",
+  "hidden": true,
+  "icon": "",
+  "menuSort": "1",
+  "status": "0",
+  "remark": "",
+  "alwaysShow": false,
+  "redirect": "",
+  "meta": {
+    "title": "删除",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "songjq",
+  "createTime": {
+    "$date": "2022-01-05T07:12:49.524Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61d54518c7699e382c6cc164"
+  },
+  "children": [],
+  "parentId": "61d5066dc7699e382c6cc132",
+  "parentName": "角色管理",
+  "menuName": "权限",
+  "menuType": "B",
+  "component": "",
+  "componentName": "",
+  "path": "",
+  "permission": "roles:power",
+  "hidden": true,
+  "icon": "",
+  "menuSort": "1",
+  "status": "0",
+  "remark": "",
+  "alwaysShow": false,
+  "redirect": "",
+  "meta": {
+    "title": "权限",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "songjq",
+  "createTime": {
+    "$date": "2022-01-05T07:13:28.840Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61d54537c7699e382c6cc166"
+  },
+  "children": [],
+  "parentId": "61d506a7c7699e382c6cc134",
+  "parentName": "菜单管理",
+  "menuName": "新增",
+  "menuType": "B",
+  "component": "",
+  "componentName": "",
+  "path": "",
+  "permission": "menus:add",
+  "hidden": true,
+  "icon": "",
+  "menuSort": "1",
+  "status": "0",
+  "remark": "",
+  "alwaysShow": false,
+  "redirect": "",
+  "meta": {
+    "title": "新增",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "songjq",
+  "createTime": {
+    "$date": "2022-01-05T07:13:59.201Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61d54548c7699e382c6cc168"
+  },
+  "children": [],
+  "parentId": "61d506a7c7699e382c6cc134",
+  "parentName": "菜单管理",
+  "menuName": "编辑",
+  "menuType": "B",
+  "component": "",
+  "componentName": "",
+  "path": "",
+  "permission": "menus:edit",
+  "hidden": true,
+  "icon": "",
+  "menuSort": "1",
+  "status": "0",
+  "remark": "",
+  "alwaysShow": false,
+  "redirect": "",
+  "meta": {
+    "title": "编辑",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "songjq",
+  "createTime": {
+    "$date": "2022-01-05T07:14:16.160Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61d5455ac7699e382c6cc16a"
+  },
+  "children": [],
+  "parentId": "61d506a7c7699e382c6cc134",
+  "parentName": "菜单管理",
+  "menuName": "删除",
+  "menuType": "B",
+  "component": "",
+  "componentName": "",
+  "path": "",
+  "permission": "menus:del",
+  "hidden": true,
+  "icon": "",
+  "menuSort": "1",
+  "status": "0",
+  "remark": "",
+  "alwaysShow": false,
+  "redirect": "",
+  "meta": {
+    "title": "删除",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "songjq",
+  "createTime": {
+    "$date": "2022-01-05T07:14:34.792Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61d6a32dd1d56b6458760f22"
+  },
+  "children": [],
+  "parentId": "61d3f65e2106283dd4ec3f09",
+  "parentName": "长链接绑定",
+  "menuName": "详情",
+  "menuType": "B",
+  "component": "",
+  "componentName": "",
+  "path": "",
+  "permission": "dns:detial",
+  "hidden": true,
+  "icon": "",
+  "menuSort": "999",
+  "status": "0",
+  "remark": "",
+  "alwaysShow": false,
+  "redirect": "",
+  "meta": {
+    "title": "详情",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "songjq",
+  "createTime": {
+    "$date": "2022-01-06T08:07:09.231Z"
+  },
+  "__v": 0,
+  "menuId": null,
+  "updateBy": "songjq",
+  "updateTime": {
+    "$date": "2022-01-06T08:32:32.982Z"
+  }
+},{
+  "_id": {
+    "$oid": "61d6a904d1d56b6458760f26"
+  },
+  "children": [],
+  "parentId": "61d3f65e2106283dd4ec3f09",
+  "parentName": "长链接绑定",
+  "menuName": "完全编辑",
+  "menuType": "B",
+  "component": "",
+  "componentName": "",
+  "path": "",
+  "permission": "dns:write",
+  "hidden": true,
+  "icon": "",
+  "menuSort": "2",
+  "status": "0",
+  "remark": "",
+  "alwaysShow": false,
+  "redirect": "",
+  "meta": {
+    "title": "完全编辑",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "songjq",
+  "createTime": {
+    "$date": "2022-01-06T08:32:04.986Z"
+  },
+  "__v": 0,
+  "menuId": null,
+  "updateBy": "songjq",
+  "updateTime": {
+    "$date": "2022-01-06T13:17:58.338Z"
+  }
+},{
+  "_id": {
+    "$oid": "61d97e9a6120965fa4ddf2f1"
+  },
+  "children": [],
+  "parentId": "61d3f65e2106283dd4ec3f09",
+  "parentName": "长链接绑定",
+  "menuName": "导出",
+  "menuType": "B",
+  "component": "",
+  "componentName": "",
+  "path": "",
+  "permission": "dns:export",
+  "hidden": true,
+  "icon": "",
+  "menuSort": "999",
+  "status": "0",
+  "remark": "",
+  "alwaysShow": false,
+  "redirect": "",
+  "meta": {
+    "title": "导出",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "songjq",
+  "createTime": {
+    "$date": "2022-01-08T12:07:54.852Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61ee13217f00d40da03ce7cd"
+  },
+  "children": [],
+  "parentId": "0",
+  "parentName": "",
+  "menuType": "M",
+  "icon": "message",
+  "hidden": false,
+  "alwaysShow": true,
+  "redirect": "information/notice",
+  "menuName": "信息管理",
+  "permission": "information",
+  "path": "/information",
+  "menuSort": 5,
+  "componentName": "",
+  "component": "Layout",
+  "status": "0",
+  "remark": "",
+  "meta": {
+    "title": "信息管理",
+    "icon": "message",
+    "noCache": true
+  },
+  "createBy": "songjq",
+  "createTime": {
+    "$date": "2022-01-24T02:46:57Z"
+  },
+  "__v": 0,
+  "updateBy": "admin",
+  "updateTime": {
+    "$date": "2022-04-11T14:49:43.831Z"
+  },
+  "menuId": null,
+  "orderNum": 9
+},{
+  "_id": {
+    "$oid": "61ee13fe7f00d40da03ce7cf"
+  },
+  "children": [],
+  "parentId": "61ee13217f00d40da03ce7cd",
+  "menuType": "C",
+  "icon": "",
+  "hidden": false,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "通知公告",
+  "permission": "notice:list",
+  "path": "notice",
+  "menuSort": 999,
+  "componentName": "Dotice",
+  "component": "information/notice",
+  "status": "0",
+  "remark": "",
+  "parentName": "信息管理",
+  "meta": {
+    "title": "通知公告",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "songjq",
+  "createTime": {
+    "$date": "2022-01-24T02:50:38.143Z"
+  },
+  "__v": 0,
+  "menuId": null,
+  "orderNum": 1,
+  "updateBy": "admin",
+  "updateTime": {
+    "$date": "2022-04-11T14:52:16.126Z"
+  }
+},{
+  "_id": {
+    "$oid": "61ee156e7f00d40da03ce7d1"
+  },
+  "children": [],
+  "parentId": "61ee13fe7f00d40da03ce7cf",
+  "parentName": "通知公告",
+  "menuType": "B",
+  "icon": "",
+  "hidden": true,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "新增",
+  "permission": "notice:add",
+  "path": "",
+  "menuSort": "999",
+  "componentName": "",
+  "component": "",
+  "status": "0",
+  "remark": "",
+  "meta": {
+    "title": "新增",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "songjq",
+  "createTime": {
+    "$date": "2022-01-24T02:56:46.966Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61ee15d37f00d40da03ce7d3"
+  },
+  "children": [],
+  "parentId": "61ee13fe7f00d40da03ce7cf",
+  "parentName": "通知公告",
+  "menuType": "B",
+  "icon": "",
+  "hidden": true,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "编辑",
+  "permission": "notice:edit",
+  "path": "",
+  "menuSort": "999",
+  "componentName": "",
+  "component": "",
+  "status": "0",
+  "remark": "",
+  "meta": {
+    "title": "编辑",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "songjq",
+  "createTime": {
+    "$date": "2022-01-24T02:58:27.936Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61ee15ed7f00d40da03ce7d5"
+  },
+  "children": [],
+  "parentId": "61ee13fe7f00d40da03ce7cf",
+  "menuType": "B",
+  "icon": "",
+  "hidden": true,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "删除",
+  "permission": "notice:del",
+  "path": "",
+  "menuSort": "999",
+  "componentName": "",
+  "component": "",
+  "status": "0",
+  "remark": "",
+  "parentName": "通知公告",
+  "meta": {
+    "title": "删除",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "songjq",
+  "createTime": {
+    "$date": "2022-01-24T02:58:53.578Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61ee162d7f00d40da03ce7d7"
+  },
+  "children": [],
+  "parentId": "61ee13217f00d40da03ce7cd",
+  "menuType": "C",
+  "icon": "",
+  "hidden": false,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "消息审批",
+  "permission": "approve:list",
+  "path": "approve",
+  "menuSort": 999,
+  "componentName": "Approve",
+  "component": "information/approve",
+  "status": "0",
+  "remark": "",
+  "parentName": "信息管理",
+  "meta": {
+    "title": "消息审批",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "songjq",
+  "createTime": {
+    "$date": "2022-01-24T02:59:57.761Z"
+  },
+  "__v": 0,
+  "menuId": null,
+  "orderNum": 999,
+  "updateBy": "admin",
+  "updateTime": {
+    "$date": "2022-04-11T14:52:24.474Z"
+  }
+},{
+  "_id": {
+    "$oid": "61ee16477f00d40da03ce7d9"
+  },
+  "children": [],
+  "parentId": "61ee162d7f00d40da03ce7d7",
+  "menuType": "B",
+  "icon": "",
+  "hidden": true,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "新增",
+  "permission": "approve:add",
+  "path": "",
+  "menuSort": "999",
+  "componentName": "",
+  "component": "",
+  "status": "0",
+  "remark": "",
+  "parentName": "消息审批",
+  "meta": {
+    "title": "新增",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "songjq",
+  "createTime": {
+    "$date": "2022-01-24T03:00:23.862Z"
+  },
+  "__v": 0,
+  "orderNum": 999,
+  "updateBy": "admin",
+  "updateTime": {
+    "$date": "2022-04-23T09:07:44.807Z"
+  }
+},{
+  "_id": {
+    "$oid": "61ee165c7f00d40da03ce7db"
+  },
+  "children": [],
+  "parentId": "61ee162d7f00d40da03ce7d7",
+  "menuType": "B",
+  "icon": "",
+  "hidden": true,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "编辑",
+  "permission": "approve:edit",
+  "path": "",
+  "menuSort": "999",
+  "componentName": "",
+  "component": "",
+  "status": "0",
+  "remark": "",
+  "parentName": "消息审批",
+  "meta": {
+    "title": "编辑",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "songjq",
+  "createTime": {
+    "$date": "2022-01-24T03:00:44.252Z"
+  },
+  "__v": 0,
+  "orderNum": 999,
+  "updateBy": "admin",
+  "updateTime": {
+    "$date": "2022-04-23T09:08:05.064Z"
+  }
+},{
+  "_id": {
+    "$oid": "61ee166f7f00d40da03ce7dd"
+  },
+  "children": [],
+  "parentId": "61ee162d7f00d40da03ce7d7",
+  "menuType": "B",
+  "icon": "",
+  "hidden": true,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "删除",
+  "permission": "approve:del",
+  "path": "",
+  "menuSort": "999",
+  "componentName": "",
+  "component": "",
+  "status": "0",
+  "remark": "",
+  "parentName": "消息审批",
+  "meta": {
+    "title": "删除",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "songjq",
+  "createTime": {
+    "$date": "2022-01-24T03:01:03.726Z"
+  },
+  "__v": 0,
+  "orderNum": 999,
+  "updateBy": "admin",
+  "updateTime": {
+    "$date": "2022-04-23T09:07:55.207Z"
+  }
+},{
+  "_id": {
+    "$oid": "61ee30cd7f00d40da03ce7e9"
+  },
+  "children": [],
+  "parentId": "0",
+  "parentName": "",
+  "menuType": "M",
+  "icon": "zujian",
+  "hidden": false,
+  "alwaysShow": true,
+  "redirect": "components/echarts",
+  "menuName": "组件管理",
+  "permission": "components",
+  "path": "/components",
+  "menuSort": 999,
+  "componentName": "",
+  "component": "Layout",
+  "status": "0",
+  "remark": "",
+  "meta": {
+    "title": "组件管理",
+    "icon": "zujian",
+    "noCache": true
+  },
+  "createBy": "songjq",
+  "createTime": {
+    "$date": "2022-01-24T04:53:33.877Z"
+  },
+  "__v": 0,
+  "menuId": null,
+  "updateBy": "admin",
+  "updateTime": {
+    "$date": "2022-04-11T14:48:36.257Z"
+  },
+  "orderNum": 999
+},{
+  "_id": {
+    "$oid": "61ee31157f00d40da03ce7eb"
+  },
+  "children": [],
+  "parentId": "61ee30cd7f00d40da03ce7e9",
+  "menuType": "C",
+  "icon": "",
+  "hidden": false,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "图表库",
+  "permission": "echarts:list",
+  "path": "echarts",
+  "menuSort": 999,
+  "componentName": "Echarts",
+  "component": "components/Echarts",
+  "status": "0",
+  "remark": "",
+  "parentName": "组件管理",
+  "meta": {
+    "title": "图表库",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "songjq",
+  "createTime": {
+    "$date": "2022-01-24T04:54:45.080Z"
+  },
+  "__v": 0,
+  "menuId": null,
+  "orderNum": 1,
+  "updateBy": "admin",
+  "updateTime": {
+    "$date": "2022-04-11T14:54:24.480Z"
+  }
+},{
+  "_id": {
+    "$oid": "61ee31487f00d40da03ce7ed"
+  },
+  "children": [],
+  "parentId": "61ee30cd7f00d40da03ce7e9",
+  "menuType": "C",
+  "icon": "",
+  "hidden": false,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "图标库",
+  "permission": "icon:list",
+  "path": "icon",
+  "menuSort": 999,
+  "componentName": "Icon",
+  "component": "components/icons/index",
+  "status": "0",
+  "remark": "",
+  "parentName": "组件管理",
+  "meta": {
+    "title": "图标库",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "songjq",
+  "createTime": {
+    "$date": "2022-01-24T04:55:36.024Z"
+  },
+  "__v": 0,
+  "menuId": null,
+  "orderNum": 2,
+  "updateBy": "admin",
+  "updateTime": {
+    "$date": "2022-04-11T14:54:30.903Z"
+  }
+},{
+  "_id": {
+    "$oid": "61ee31737f00d40da03ce7ef"
+  },
+  "children": [],
+  "parentId": "61ee30cd7f00d40da03ce7e9",
+  "menuType": "C",
+  "icon": "",
+  "hidden": false,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "富文本",
+  "permission": "tinymce:list",
+  "path": "tinymce",
+  "menuSort": 999,
+  "componentName": "Editor",
+  "component": "components/Editor",
+  "status": "0",
+  "remark": "",
+  "parentName": "组件管理",
+  "meta": {
+    "title": "富文本",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "songjq",
+  "createTime": {
+    "$date": "2022-01-24T04:56:19.042Z"
+  },
+  "__v": 0,
+  "menuId": null,
+  "orderNum": 3,
+  "updateBy": "admin",
+  "updateTime": {
+    "$date": "2022-04-11T14:54:39.718Z"
+  }
+},{
+  "_id": {
+    "$oid": "61ee31957f00d40da03ce7f1"
+  },
+  "children": [],
+  "parentId": "61ee30cd7f00d40da03ce7e9",
+  "menuType": "C",
+  "icon": "",
+  "hidden": false,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "Markdown",
+  "permission": "markdown:list",
+  "path": "markdown",
+  "menuSort": 999,
+  "componentName": "Markdown",
+  "component": "components/MarkDown",
+  "status": "0",
+  "remark": "",
+  "parentName": "组件管理",
+  "meta": {
+    "title": "Markdown",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "songjq",
+  "createTime": {
+    "$date": "2022-01-24T04:56:53.354Z"
+  },
+  "__v": 0,
+  "menuId": null,
+  "orderNum": 4,
+  "updateBy": "admin",
+  "updateTime": {
+    "$date": "2022-04-11T14:54:54.940Z"
+  }
+},{
+  "_id": {
+    "$oid": "61ee31bc7f00d40da03ce7f3"
+  },
+  "children": [],
+  "parentId": "61ee30cd7f00d40da03ce7e9",
+  "menuType": "C",
+  "icon": "",
+  "hidden": false,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "Yaml编辑器",
+  "permission": "yaml:list",
+  "path": "yaml",
+  "menuSort": 999,
+  "componentName": "YamlEdit",
+  "component": "components/YamlEdit",
+  "status": "0",
+  "remark": "",
+  "parentName": "组件管理",
+  "meta": {
+    "title": "Yaml编辑器",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "songjq",
+  "createTime": {
+    "$date": "2022-01-24T04:57:32.649Z"
+  },
+  "__v": 0,
+  "menuId": null,
+  "orderNum": 999,
+  "updateBy": "admin",
+  "updateTime": {
+    "$date": "2022-04-11T14:55:03.616Z"
+  }
+},{
+  "_id": {
+    "$oid": "62178c448be5526dcc35e94d"
+  },
+  "children": [],
+  "parentId": "61d5010ac7699e382c6cc12c",
+  "parentName": "系统管理",
+  "menuType": "C",
+  "icon": "",
+  "hidden": false,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "参数配置",
+  "permission": "config:list",
+  "path": "config",
+  "menuSort": 999,
+  "componentName": "Config",
+  "component": "system/config",
+  "status": "0",
+  "remark": "",
+  "meta": {
+    "title": "参数配置",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-02-24T13:46:44.382Z"
+  },
+  "__v": 0,
+  "menuId": null,
+  "orderNum": 999,
+  "updateBy": "admin",
+  "updateTime": {
+    "$date": "2022-04-11T14:53:13.493Z"
+  }
+},{
+  "_id": {
+    "$oid": "62178c8f8be5526dcc35e94f"
+  },
+  "children": [],
+  "parentId": "62178c448be5526dcc35e94d",
+  "parentName": "参数配置",
+  "menuType": "B",
+  "icon": "",
+  "hidden": true,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "新增",
+  "permission": "config:add",
+  "path": "",
+  "menuSort": "999",
+  "componentName": "",
+  "component": "",
+  "status": "0",
+  "remark": "",
+  "meta": {
+    "title": "新增",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-02-24T13:47:59.968Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62178ca58be5526dcc35e951"
+  },
+  "children": [],
+  "parentId": "62178c448be5526dcc35e94d",
+  "menuType": "B",
+  "icon": "",
+  "hidden": true,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "编辑",
+  "permission": "config:edit",
+  "path": "",
+  "menuSort": "999",
+  "componentName": "",
+  "component": "",
+  "status": "0",
+  "remark": "",
+  "parentName": "参数配置",
+  "meta": {
+    "title": "编辑",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-02-24T13:48:21.369Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62178cb58be5526dcc35e953"
+  },
+  "children": [],
+  "parentId": "62178c448be5526dcc35e94d",
+  "menuType": "B",
+  "icon": "",
+  "hidden": true,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "删除",
+  "permission": "config:del",
+  "path": "",
+  "menuSort": "999",
+  "componentName": "",
+  "component": "",
+  "status": "0",
+  "remark": "",
+  "parentName": "参数配置",
+  "meta": {
+    "title": "删除",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-02-24T13:48:37.819Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6217a323e37cad6cf01a65f7"
+  },
+  "children": [],
+  "parentId": "0",
+  "parentName": "",
+  "menuType": "M",
+  "icon": "alipay",
+  "hidden": false,
+  "alwaysShow": true,
+  "redirect": "finance/order",
+  "menuName": "财务管理",
+  "permission": "finance",
+  "path": "/finance",
+  "menuSort": 4,
+  "componentName": "",
+  "component": "Layout",
+  "status": "0",
+  "remark": "",
+  "meta": {
+    "title": "财务管理",
+    "icon": "alipay",
+    "noCache": true
+  },
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-02-24T15:24:19Z"
+  },
+  "__v": 0,
+  "updateBy": "admin",
+  "updateTime": {
+    "$date": "2022-04-11T14:47:49.217Z"
+  },
+  "menuId": null,
+  "orderNum": 7
+},{
+  "_id": {
+    "$oid": "6217a393e37cad6cf01a65f9"
+  },
+  "children": [],
+  "parentId": "6217a323e37cad6cf01a65f7",
+  "menuType": "C",
+  "icon": "",
+  "hidden": false,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "充值订单",
+  "permission": "order:list",
+  "path": "order",
+  "menuSort": 999,
+  "componentName": "Order",
+  "component": "finance/order",
+  "status": "0",
+  "remark": "",
+  "parentName": "财务管理",
+  "meta": {
+    "title": "充值订单",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-02-24T15:26:11.660Z"
+  },
+  "__v": 0,
+  "menuId": null,
+  "orderNum": 999,
+  "updateBy": "admin",
+  "updateTime": {
+    "$date": "2022-04-11T14:51:59.342Z"
+  }
+},{
+  "_id": {
+    "$oid": "6217a3b6e37cad6cf01a65fb"
+  },
+  "children": [],
+  "parentId": "6217a393e37cad6cf01a65f9",
+  "menuType": "B",
+  "icon": "",
+  "hidden": true,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "新增",
+  "permission": "order:add",
+  "path": "",
+  "menuSort": "999",
+  "componentName": "",
+  "component": "",
+  "status": "0",
+  "remark": "",
+  "parentName": "充值订单",
+  "meta": {
+    "title": "新增",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-02-24T15:26:46.258Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6217a3cae37cad6cf01a65fd"
+  },
+  "children": [],
+  "parentId": "6217a393e37cad6cf01a65f9",
+  "menuType": "B",
+  "icon": "",
+  "hidden": true,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "编辑",
+  "permission": "order:edit",
+  "path": "",
+  "menuSort": "999",
+  "componentName": "",
+  "component": "",
+  "status": "0",
+  "remark": "",
+  "parentName": "充值订单",
+  "meta": {
+    "title": "编辑",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-02-24T15:27:06.234Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6217a3d9e37cad6cf01a65ff"
+  },
+  "children": [],
+  "parentId": "6217a393e37cad6cf01a65f9",
+  "menuType": "B",
+  "icon": "",
+  "hidden": true,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "删除",
+  "permission": "order:del",
+  "path": "",
+  "menuSort": "999",
+  "componentName": "",
+  "component": "",
+  "status": "0",
+  "remark": "",
+  "parentName": "充值订单",
+  "meta": {
+    "title": "删除",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-02-24T15:27:21.296Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6217a452e37cad6cf01a6601"
+  },
+  "children": [],
+  "parentId": "0",
+  "menuType": "M",
+  "icon": "message",
+  "hidden": false,
+  "alwaysShow": true,
+  "redirect": "smsMgr/sendMessage",
+  "menuName": "短信管理",
+  "permission": "smsMgr",
+  "path": "/smsMgr",
+  "menuSort": 3,
+  "componentName": "",
+  "component": "Layout",
+  "status": "0",
+  "remark": "",
+  "meta": {
+    "title": "短信管理",
+    "icon": "message",
+    "noCache": true
+  },
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-02-24T15:29:22Z"
+  },
+  "__v": 0,
+  "updateBy": "admin",
+  "updateTime": {
+    "$date": "2022-04-11T14:47:25.068Z"
+  },
+  "menuId": null,
+  "parentName": "",
+  "orderNum": 3
+},{
+  "_id": {
+    "$oid": "6217a4c8e37cad6cf01a6604"
+  },
+  "children": [],
+  "parentId": "6217a452e37cad6cf01a6601",
+  "menuType": "C",
+  "icon": "",
+  "hidden": false,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "发送短信",
+  "permission": "sendMessage:list",
+  "path": "sendMessage",
+  "menuSort": 1,
+  "componentName": "SendMessage",
+  "component": "smsMgr/sendMessage",
+  "status": "0",
+  "remark": "",
+  "parentName": "短信管理",
+  "meta": {
+    "title": "发送短信",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-02-24T15:31:20.795Z"
+  },
+  "__v": 0,
+  "menuId": null,
+  "updateBy": "admin",
+  "updateTime": {
+    "$date": "2022-04-11T14:50:41.109Z"
+  },
+  "orderNum": 1
+},{
+  "_id": {
+    "$oid": "6217a4fde37cad6cf01a6606"
+  },
+  "children": [],
+  "parentId": "6217a452e37cad6cf01a6601",
+  "menuType": "C",
+  "icon": "",
+  "hidden": false,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "表格提交",
+  "permission": "submitByTable",
+  "path": "submitByTable",
+  "menuSort": 3,
+  "componentName": "SubmitByTable",
+  "component": "smsMgr/submitByTable",
+  "status": "0",
+  "remark": "",
+  "parentName": "短信管理",
+  "meta": {
+    "title": "表格提交",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-02-24T15:32:13.753Z"
+  },
+  "__v": 0,
+  "menuId": null,
+  "updateBy": "admin",
+  "updateTime": {
+    "$date": "2022-04-11T14:50:49.616Z"
+  },
+  "orderNum": 2
+},{
+  "_id": {
+    "$oid": "6217a51ee37cad6cf01a6608"
+  },
+  "children": [],
+  "parentId": "6217a452e37cad6cf01a6601",
+  "menuType": "C",
+  "icon": "",
+  "hidden": false,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "短信模板",
+  "permission": "template:list",
+  "path": "templateMessage",
+  "menuSort": 6,
+  "componentName": "TemplateMessage",
+  "component": "smsMgr/templateMessage",
+  "status": "0",
+  "remark": "",
+  "parentName": "短信管理",
+  "meta": {
+    "title": "短信模板",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-02-24T15:32:46.986Z"
+  },
+  "__v": 0,
+  "updateBy": "admin",
+  "updateTime": {
+    "$date": "2022-04-11T14:50:59.658Z"
+  },
+  "menuId": null,
+  "orderNum": 3
+},{
+  "_id": {
+    "$oid": "6217a53ee37cad6cf01a660a"
+  },
+  "children": [],
+  "parentId": "6217a452e37cad6cf01a6601",
+  "menuType": "C",
+  "icon": "",
+  "hidden": false,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "发送记录",
+  "permission": "sendRecord",
+  "path": "sendRecord",
+  "menuSort": 8,
+  "componentName": "SendRecord",
+  "component": "smsMgr/sendRecord",
+  "status": "0",
+  "remark": "",
+  "parentName": "短信管理",
+  "meta": {
+    "title": "发送记录",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-02-24T15:33:18.143Z"
+  },
+  "__v": 0,
+  "menuId": null,
+  "updateBy": "admin",
+  "updateTime": {
+    "$date": "2022-04-11T14:51:09.737Z"
+  },
+  "orderNum": 4
+},{
+  "_id": {
+    "$oid": "6217a55fe37cad6cf01a660c"
+  },
+  "children": [],
+  "parentId": "6217a452e37cad6cf01a6601",
+  "menuType": "C",
+  "icon": "",
+  "hidden": false,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "发送回执",
+  "permission": "returnRecord",
+  "path": "returnRecord",
+  "menuSort": 10,
+  "componentName": "ReturnRecord",
+  "component": "smsMgr/returnRecord",
+  "status": "0",
+  "remark": "",
+  "parentName": "短信管理",
+  "meta": {
+    "title": "发送回执",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-02-24T15:33:51.155Z"
+  },
+  "__v": 0,
+  "menuId": null,
+  "updateBy": "admin",
+  "updateTime": {
+    "$date": "2022-04-11T14:51:20.228Z"
+  },
+  "orderNum": 5
+},{
+  "_id": {
+    "$oid": "6217a57ce37cad6cf01a660e"
+  },
+  "children": [],
+  "parentId": "6217a452e37cad6cf01a6601",
+  "menuType": "C",
+  "icon": "",
+  "hidden": false,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "定时短信",
+  "permission": "scheduledMessage",
+  "path": "scheduledMessage",
+  "menuSort": 15,
+  "componentName": "ScheduledMessage",
+  "component": "smsMgr/scheduledMessage",
+  "status": "0",
+  "remark": "",
+  "parentName": "短信管理",
+  "meta": {
+    "title": "定时短信",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-02-24T15:34:20.727Z"
+  },
+  "__v": 0,
+  "menuId": null,
+  "updateBy": "admin",
+  "updateTime": {
+    "$date": "2022-04-11T14:51:29.019Z"
+  },
+  "orderNum": 6
+},{
+  "_id": {
+    "$oid": "621b1638f0ed3b57e86075fc"
+  },
+  "children": [],
+  "parentId": "0",
+  "parentName": "",
+  "menuType": "M",
+  "icon": "dashboard",
+  "hidden": false,
+  "alwaysShow": true,
+  "redirect": "/home/index",
+  "menuName": "访问中心",
+  "permission": "home",
+  "path": "/home",
+  "menuSort": 1,
+  "componentName": "",
+  "component": "Layout",
+  "status": "0",
+  "remark": "",
+  "meta": {
+    "title": "访问中心",
+    "icon": "dashboard",
+    "noCache": true
+  },
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-02-27T06:12:08.126Z"
+  },
+  "__v": 0,
+  "updateBy": "admin",
+  "updateTime": {
+    "$date": "2022-04-11T14:47:12.676Z"
+  },
+  "menuId": null,
+  "orderNum": 1
+},{
+  "_id": {
+    "$oid": "621b166df0ed3b57e86075fe"
+  },
+  "children": [],
+  "parentId": "621b1638f0ed3b57e86075fc",
+  "menuType": "C",
+  "icon": "",
+  "hidden": false,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "首页",
+  "permission": "index:list",
+  "path": "index",
+  "menuSort": 1,
+  "componentName": "Index",
+  "component": "home/index",
+  "status": "0",
+  "remark": "",
+  "parentName": "访问中心",
+  "meta": {
+    "title": "首页",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-02-27T06:13:01.352Z"
+  },
+  "__v": 0,
+  "updateBy": "admin",
+  "updateTime": {
+    "$date": "2022-04-11T14:49:58.123Z"
+  },
+  "menuId": null,
+  "orderNum": 1
+},{
+  "_id": {
+    "$oid": "621b16a2f0ed3b57e8607600"
+  },
+  "children": [],
+  "parentId": "621b1638f0ed3b57e86075fc",
+  "menuType": "C",
+  "icon": "",
+  "hidden": false,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "概览",
+  "permission": "overview:list",
+  "path": "overview",
+  "menuSort": 2,
+  "componentName": "Overview",
+  "component": "home/overview",
+  "status": "0",
+  "remark": "",
+  "parentName": "访问中心",
+  "meta": {
+    "title": "概览",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-02-27T06:13:54.890Z"
+  },
+  "__v": 0,
+  "updateBy": "admin",
+  "updateTime": {
+    "$date": "2022-04-11T14:50:15.909Z"
+  },
+  "menuId": null,
+  "orderNum": 2
+},{
+  "_id": {
+    "$oid": "6226075f82246d528c2fcbf8"
+  },
+  "children": [],
+  "parentId": "621b1638f0ed3b57e86075fc",
+  "parentName": "访问中心",
+  "menuType": "C",
+  "icon": "",
+  "hidden": false,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "个人中心",
+  "permission": "profile:list",
+  "path": "profile",
+  "menuSort": 3,
+  "componentName": "Profile",
+  "component": "home/profile",
+  "status": "0",
+  "remark": "",
+  "meta": {
+    "title": "个人中心",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "wangwu",
+  "createTime": {
+    "$date": "2022-03-07T13:23:43.943Z"
+  },
+  "__v": 0,
+  "updateBy": "admin",
+  "updateTime": {
+    "$date": "2022-04-11T14:50:26.452Z"
+  },
+  "menuId": null,
+  "orderNum": 3
+},{
+  "_id": {
+    "$oid": "6231f3e383e93f18b4643393"
+  },
+  "children": [],
+  "parentId": "6217a51ee37cad6cf01a6608",
+  "parentName": "短信模板",
+  "menuType": "B",
+  "icon": "",
+  "hidden": false,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "新增",
+  "permission": "template:add",
+  "path": "",
+  "menuSort": "999",
+  "componentName": "",
+  "component": "",
+  "status": "0",
+  "remark": "",
+  "meta": {
+    "title": "新增",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-03-16T14:27:47.479Z"
+  },
+  "__v": 0,
+  "updateBy": "admin",
+  "updateTime": {
+    "$date": "2022-03-16T14:28:49.659Z"
+  }
+},{
+  "_id": {
+    "$oid": "6231f3f883e93f18b4643395"
+  },
+  "children": [],
+  "parentId": "6217a51ee37cad6cf01a6608",
+  "menuType": "B",
+  "icon": "",
+  "hidden": false,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "编辑",
+  "permission": "template:edit",
+  "path": "",
+  "menuSort": "999",
+  "componentName": "",
+  "component": "",
+  "status": "0",
+  "remark": "",
+  "parentName": "短信模板",
+  "meta": {
+    "title": "编辑",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-03-16T14:28:08.159Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6231f41783e93f18b4643397"
+  },
+  "children": [],
+  "parentId": "6217a51ee37cad6cf01a6608",
+  "menuType": "B",
+  "icon": "",
+  "hidden": false,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "删除",
+  "permission": "template:del",
+  "path": "",
+  "menuSort": "999",
+  "componentName": "",
+  "component": "",
+  "status": "0",
+  "remark": "",
+  "parentName": "短信模板",
+  "meta": {
+    "title": "删除",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-03-16T14:28:39.238Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6249b8def3987200ece24706"
+  },
+  "children": [],
+  "parentId": "6217a51ee37cad6cf01a6608",
+  "parentName": "短信模板",
+  "menuType": "B",
+  "icon": "",
+  "hidden": true,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "绑定模板ID",
+  "permission": "template:bing",
+  "path": "",
+  "menuSort": "999",
+  "componentName": "",
+  "component": "",
+  "status": "0",
+  "remark": "",
+  "meta": {
+    "title": "绑定模板ID",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-04-03T15:10:22.707Z"
+  },
+  "__v": 0,
+  "updateBy": "admin",
+  "updateTime": {
+    "$date": "2022-04-03T15:15:30.782Z"
+  }
+},{
+  "_id": {
+    "$oid": "6249ba0bf3987200ece2470a"
+  },
+  "children": [],
+  "parentId": "6217a51ee37cad6cf01a6608",
+  "parentName": "短信模板",
+  "menuType": "B",
+  "icon": "",
+  "hidden": true,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "用户检索",
+  "permission": "template:user",
+  "path": "",
+  "menuSort": "999",
+  "componentName": "",
+  "component": "",
+  "status": "0",
+  "remark": "",
+  "meta": {
+    "title": "用户检索",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-04-03T15:15:23.581Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6249bb05f3987200ece2470e"
+  },
+  "children": [],
+  "parentId": "6217a53ee37cad6cf01a660a",
+  "parentName": "发送记录",
+  "menuType": "B",
+  "icon": "",
+  "hidden": false,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "编辑",
+  "permission": "sendRecord:edit",
+  "path": "",
+  "menuSort": "999",
+  "componentName": "",
+  "component": "",
+  "status": "0",
+  "remark": "",
+  "meta": {
+    "title": "编辑",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-04-03T15:19:33.216Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6249bbe0f3987200ece24710"
+  },
+  "children": [],
+  "parentId": "6217a53ee37cad6cf01a660a",
+  "parentName": "发送记录",
+  "menuType": "B",
+  "icon": "",
+  "hidden": false,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "删除",
+  "permission": "sendRecord:del",
+  "path": "",
+  "menuSort": "999",
+  "componentName": "",
+  "component": "",
+  "status": "0",
+  "remark": "",
+  "meta": {
+    "title": "删除",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-04-03T15:23:12.006Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6249bc38f3987200ece24712"
+  },
+  "children": [],
+  "parentId": "6217a53ee37cad6cf01a660a",
+  "parentName": "发送记录",
+  "menuType": "B",
+  "icon": "",
+  "hidden": false,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "失败重发",
+  "permission": "sendRecord:repeat",
+  "path": "",
+  "menuSort": "999",
+  "componentName": "",
+  "component": "",
+  "status": "0",
+  "remark": "",
+  "meta": {
+    "title": "失败重发",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-04-03T15:24:40.290Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6249bc69f3987200ece24714"
+  },
+  "children": [],
+  "parentId": "6217a53ee37cad6cf01a660a",
+  "parentName": "发送记录",
+  "menuType": "B",
+  "icon": "",
+  "hidden": false,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "用户检索",
+  "permission": "sendRecord:user",
+  "path": "",
+  "menuSort": "999",
+  "componentName": "",
+  "component": "",
+  "status": "0",
+  "remark": "",
+  "meta": {
+    "title": "用户检索",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-04-03T15:25:29.311Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6249bd22f3987200ece24716"
+  },
+  "children": [],
+  "parentId": "6217a55fe37cad6cf01a660c",
+  "parentName": "发送回执",
+  "menuType": "B",
+  "icon": "",
+  "hidden": false,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "删除",
+  "permission": "returnRecord:del",
+  "path": "",
+  "menuSort": "999",
+  "componentName": "",
+  "component": "",
+  "status": "0",
+  "remark": "",
+  "meta": {
+    "title": "删除",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-04-03T15:28:34.501Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6249bd6df3987200ece24718"
+  },
+  "children": [],
+  "parentId": "6217a55fe37cad6cf01a660c",
+  "parentName": "发送回执",
+  "menuType": "B",
+  "icon": "",
+  "hidden": false,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "用户检索",
+  "permission": "returnRecord:user",
+  "path": "",
+  "menuSort": "999",
+  "componentName": "",
+  "component": "",
+  "status": "0",
+  "remark": "",
+  "meta": {
+    "title": "用户检索",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-04-03T15:29:49.137Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6249bdb7f3987200ece2471a"
+  },
+  "children": [],
+  "parentId": "6217a57ce37cad6cf01a660e",
+  "parentName": "定时短信",
+  "menuType": "B",
+  "icon": "",
+  "hidden": false,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "删除",
+  "permission": "scheduledMessage:del",
+  "path": "",
+  "menuSort": "999",
+  "componentName": "",
+  "component": "",
+  "status": "0",
+  "remark": "",
+  "meta": {
+    "title": "删除",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-04-03T15:31:03.094Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6249bde5f3987200ece2471c"
+  },
+  "children": [],
+  "parentId": "6217a57ce37cad6cf01a660e",
+  "parentName": "定时短信",
+  "menuType": "B",
+  "icon": "",
+  "hidden": false,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "手动发送",
+  "permission": "scheduledMessage:send",
+  "path": "",
+  "menuSort": "999",
+  "componentName": "",
+  "component": "",
+  "status": "0",
+  "remark": "",
+  "meta": {
+    "title": "手动发送",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-04-03T15:31:49.396Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6249be04f3987200ece2471e"
+  },
+  "children": [],
+  "parentId": "6217a57ce37cad6cf01a660e",
+  "parentName": "定时短信",
+  "menuType": "B",
+  "icon": "",
+  "hidden": false,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "用户检索",
+  "permission": "scheduledMessage:user",
+  "path": "",
+  "menuSort": "999",
+  "componentName": "",
+  "component": "",
+  "status": "0",
+  "remark": "",
+  "meta": {
+    "title": "用户检索",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-04-03T15:32:20.873Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6249be71f3987200ece24720"
+  },
+  "children": [],
+  "parentId": "61d50753c7699e382c6cc138",
+  "parentName": "操作日志",
+  "menuType": "B",
+  "icon": "",
+  "hidden": false,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "用户检索",
+  "permission": "operlog:user",
+  "path": "",
+  "menuSort": "999",
+  "componentName": "",
+  "component": "",
+  "status": "0",
+  "remark": "",
+  "meta": {
+    "title": "用户检索",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-04-03T15:34:09.826Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6249becaf3987200ece24722"
+  },
+  "children": [],
+  "parentId": "61d507f1c7699e382c6cc13a",
+  "parentName": "登录日志",
+  "menuType": "B",
+  "icon": "",
+  "hidden": false,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "用户检索",
+  "permission": "loginlog:user",
+  "path": "",
+  "menuSort": "999",
+  "componentName": "",
+  "component": "",
+  "status": "0",
+  "remark": "",
+  "meta": {
+    "title": "用户检索",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-04-03T15:35:38.517Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6249bf12f3987200ece24724"
+  },
+  "children": [],
+  "parentId": "61ee13fe7f00d40da03ce7cf",
+  "parentName": "通知公告",
+  "menuType": "B",
+  "icon": "",
+  "hidden": false,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "用户检索",
+  "permission": "notice:user",
+  "path": "",
+  "menuSort": "999",
+  "componentName": "",
+  "component": "",
+  "status": "0",
+  "remark": "",
+  "meta": {
+    "title": "用户检索",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-04-03T15:36:50.919Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6249bf65f3987200ece24726"
+  },
+  "children": [],
+  "parentId": "6217a393e37cad6cf01a65f9",
+  "parentName": "充值订单",
+  "menuType": "B",
+  "icon": "",
+  "hidden": false,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "用户检索",
+  "permission": "order:user",
+  "path": "",
+  "menuSort": "999",
+  "componentName": "",
+  "component": "",
+  "status": "0",
+  "remark": "",
+  "meta": {
+    "title": "用户检索",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-04-03T15:38:13.281Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6249bfc8f3987200ece24728"
+  },
+  "children": [],
+  "parentId": "61d3f65e2106283dd4ec3f09",
+  "parentName": "长链接绑定",
+  "menuType": "B",
+  "icon": "",
+  "hidden": false,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "用户检索",
+  "permission": "dns:user",
+  "path": "",
+  "menuSort": "999",
+  "componentName": "",
+  "component": "",
+  "status": "0",
+  "remark": "",
+  "meta": {
+    "title": "用户检索",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-04-03T15:39:52.342Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "624ffe34f50bb76b50321e26"
+  },
+  "children": [],
+  "parentId": "6217a323e37cad6cf01a65f7",
+  "parentName": "财务管理",
+  "menuType": "C",
+  "icon": "",
+  "hidden": false,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "立即充值",
+  "permission": "pay:list",
+  "path": "pay",
+  "menuSort": 1,
+  "componentName": "Pay",
+  "component": "finance/pay",
+  "status": "0",
+  "remark": "",
+  "meta": {
+    "title": "立即充值",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-04-08T09:19:48.151Z"
+  },
+  "__v": 0,
+  "menuId": null,
+  "updateBy": "admin",
+  "updateTime": {
+    "$date": "2022-04-11T14:51:53.015Z"
+  },
+  "orderNum": 1
+},{
+  "_id": {
+    "$oid": "625ec2d19442b82cb887830f"
+  },
+  "children": [],
+  "parentId": "61d5010ac7699e382c6cc12c",
+  "parentName": "系统管理",
+  "menuType": "C",
+  "icon": "",
+  "hidden": false,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "部门管理",
+  "permission": "dept:list",
+  "path": "dept",
+  "orderNum": 999,
+  "componentName": "Dept",
+  "component": "system/dept",
+  "status": "0",
+  "remark": "",
+  "meta": {
+    "title": "部门管理",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "songjq",
+  "createTime": {
+    "$date": "2022-04-19T14:10:25.529Z"
+  },
+  "__v": 0,
+  "updateBy": "songjq",
+  "updateTime": {
+    "$date": "2022-04-19T14:39:50.069Z"
+  }
+},{
+  "_id": {
+    "$oid": "625ec34d9442b82cb8878311"
+  },
+  "children": [],
+  "parentId": "61d5010ac7699e382c6cc12c",
+  "parentName": "系统管理",
+  "menuType": "C",
+  "icon": "",
+  "hidden": false,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "岗位管理",
+  "permission": "post:list",
+  "path": "post",
+  "orderNum": 999,
+  "componentName": "Post",
+  "component": "system/post",
+  "status": "0",
+  "remark": "",
+  "meta": {
+    "title": "岗位管理",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "songjq",
+  "createTime": {
+    "$date": "2022-04-19T14:12:29.074Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6263bf1d1e6b8a3738b864a5"
+  },
+  "children": [],
+  "parentId": "625ec2d19442b82cb887830f",
+  "parentName": "部门管理",
+  "menuType": "B",
+  "icon": "",
+  "hidden": false,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "新增",
+  "permission": "dept:add",
+  "path": "",
+  "orderNum": 999,
+  "componentName": "",
+  "component": "",
+  "status": "0",
+  "remark": "",
+  "meta": {
+    "title": "新增",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-04-23T08:55:57.888Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6263bf461e6b8a3738b864a7"
+  },
+  "children": [],
+  "parentId": "625ec2d19442b82cb887830f",
+  "parentName": "部门管理",
+  "menuType": "B",
+  "icon": "",
+  "hidden": false,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "编辑",
+  "permission": "dept:edit",
+  "path": "",
+  "orderNum": 999,
+  "componentName": "",
+  "component": "",
+  "status": "0",
+  "remark": "",
+  "meta": {
+    "title": "编辑",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-04-23T08:56:38.375Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6263bf631e6b8a3738b864a9"
+  },
+  "children": [],
+  "parentId": "625ec2d19442b82cb887830f",
+  "parentName": "部门管理",
+  "menuType": "B",
+  "icon": "",
+  "hidden": false,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "删除",
+  "permission": "dept:del",
+  "path": "",
+  "orderNum": 999,
+  "componentName": "",
+  "component": "",
+  "status": "0",
+  "remark": "",
+  "meta": {
+    "title": "删除",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-04-23T08:57:07.495Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6263bf8a1e6b8a3738b864ab"
+  },
+  "children": [],
+  "parentId": "625ec34d9442b82cb8878311",
+  "parentName": "岗位管理",
+  "menuType": "B",
+  "icon": "",
+  "hidden": false,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "新增",
+  "permission": "post:add",
+  "path": "",
+  "orderNum": 999,
+  "componentName": "",
+  "component": "",
+  "status": "0",
+  "remark": "",
+  "meta": {
+    "title": "新增",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-04-23T08:57:46.394Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6263bf9c1e6b8a3738b864ad"
+  },
+  "children": [],
+  "parentId": "625ec34d9442b82cb8878311",
+  "parentName": "岗位管理",
+  "menuType": "B",
+  "icon": "",
+  "hidden": false,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "编辑",
+  "permission": "post:edit",
+  "path": "",
+  "orderNum": 999,
+  "componentName": "",
+  "component": "",
+  "status": "0",
+  "remark": "",
+  "meta": {
+    "title": "编辑",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-04-23T08:58:04.253Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6263bfb11e6b8a3738b864af"
+  },
+  "children": [],
+  "parentId": "625ec34d9442b82cb8878311",
+  "parentName": "岗位管理",
+  "menuType": "B",
+  "icon": "",
+  "hidden": false,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "删除",
+  "permission": "post:del",
+  "path": "",
+  "orderNum": 999,
+  "componentName": "",
+  "component": "",
+  "status": "0",
+  "remark": "",
+  "meta": {
+    "title": "删除",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-04-23T08:58:25.524Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "626946ada8b43a3114a82012"
+  },
+  "children": [],
+  "parentId": "0",
+  "parentName": "",
+  "menuType": "M",
+  "icon": "source",
+  "hidden": false,
+  "alwaysShow": false,
+  "redirect": "login/white",
+  "menuName": "登录管理",
+  "permission": "loginAdmin",
+  "path": "/login",
+  "orderNum": 990,
+  "componentName": "",
+  "component": "Layout",
+  "status": "0",
+  "remark": "",
+  "meta": {
+    "title": "登录管理",
+    "icon": "source",
+    "noCache": true
+  },
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-04-27T13:35:41.988Z"
+  },
+  "__v": 0,
+  "updateBy": "admin",
+  "updateTime": {
+    "$date": "2022-04-27T14:57:44.801Z"
+  }
+},{
+  "_id": {
+    "$oid": "626947faa8b43a3114a82014"
+  },
+  "children": [],
+  "parentId": "626946ada8b43a3114a82012",
+  "parentName": "登录管理",
+  "menuType": "C",
+  "icon": "",
+  "hidden": false,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "白名单",
+  "permission": "white:list",
+  "path": "white",
+  "orderNum": 1,
+  "componentName": "White",
+  "component": "login/white",
+  "status": "0",
+  "remark": "",
+  "meta": {
+    "title": "白名单",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-04-27T13:41:14.172Z"
+  },
+  "__v": 0,
+  "updateBy": "admin",
+  "updateTime": {
+    "$date": "2022-04-27T14:58:07.103Z"
+  }
+},{
+  "_id": {
+    "$oid": "62694843a8b43a3114a82016"
+  },
+  "children": [],
+  "parentId": "626946ada8b43a3114a82012",
+  "parentName": "登录管理",
+  "menuType": "C",
+  "icon": "",
+  "hidden": false,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "黑名单",
+  "permission": "black:list",
+  "path": "black",
+  "orderNum": 2,
+  "componentName": "Black",
+  "component": "login/black",
+  "status": "0",
+  "remark": "",
+  "meta": {
+    "title": "黑名单",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-04-27T13:42:27.308Z"
+  },
+  "__v": 0,
+  "updateBy": "admin",
+  "updateTime": {
+    "$date": "2022-04-27T14:58:26.633Z"
+  }
+},{
+  "_id": {
+    "$oid": "626948b1d8eccb39c403b74e"
+  },
+  "children": [],
+  "parentId": "626946ada8b43a3114a82012",
+  "parentName": "登录管理",
+  "menuType": "C",
+  "icon": "",
+  "hidden": false,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "访问时间段",
+  "permission": "access:list",
+  "path": "access",
+  "orderNum": 3,
+  "componentName": "Access",
+  "component": "login/access",
+  "status": "0",
+  "remark": "",
+  "meta": {
+    "title": "访问时间段",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-04-27T13:44:17.638Z"
+  },
+  "__v": 0,
+  "updateBy": "admin",
+  "updateTime": {
+    "$date": "2022-04-28T14:45:44.459Z"
+  }
+},{
+  "_id": {
+    "$oid": "626948faa8b43a3114a82018"
+  },
+  "children": [],
+  "parentId": "626946ada8b43a3114a82012",
+  "parentName": "登录管理",
+  "menuType": "C",
+  "icon": "",
+  "hidden": false,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "常用设备",
+  "permission": "remote:list",
+  "path": "remote",
+  "orderNum": 4,
+  "componentName": "Remote",
+  "component": "login/remote",
+  "status": "0",
+  "remark": "",
+  "meta": {
+    "title": "常用设备",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-04-27T13:45:30.584Z"
+  },
+  "__v": 0,
+  "updateBy": "admin",
+  "updateTime": {
+    "$date": "2022-05-10T07:13:01.225Z"
+  }
+},{
+  "_id": {
+    "$oid": "626aa6ba6b5942532089a9d5"
+  },
+  "children": [],
+  "parentId": "626947faa8b43a3114a82014",
+  "parentName": "白名单",
+  "menuType": "B",
+  "icon": "",
+  "hidden": false,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "新增",
+  "permission": "white:add",
+  "path": "",
+  "orderNum": 999,
+  "componentName": "",
+  "component": "",
+  "status": "0",
+  "remark": "",
+  "meta": {
+    "title": "新增",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-04-28T14:37:46.956Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "626aa6d06b5942532089a9d7"
+  },
+  "children": [],
+  "parentId": "626947faa8b43a3114a82014",
+  "parentName": "白名单",
+  "menuType": "B",
+  "icon": "",
+  "hidden": false,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "编辑",
+  "permission": "white:edit",
+  "path": "",
+  "orderNum": 999,
+  "componentName": "",
+  "component": "",
+  "status": "0",
+  "remark": "",
+  "meta": {
+    "title": "编辑",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-04-28T14:38:08.676Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "626aa6ed6b5942532089a9d9"
+  },
+  "children": [],
+  "parentId": "626947faa8b43a3114a82014",
+  "parentName": "白名单",
+  "menuType": "B",
+  "icon": "",
+  "hidden": false,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "删除",
+  "permission": "white:del",
+  "path": "",
+  "orderNum": 999,
+  "componentName": "",
+  "component": "",
+  "status": "0",
+  "remark": "",
+  "meta": {
+    "title": "删除",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-04-28T14:38:37.651Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "626aa7056b5942532089a9db"
+  },
+  "children": [],
+  "parentId": "626947faa8b43a3114a82014",
+  "parentName": "白名单",
+  "menuType": "B",
+  "icon": "",
+  "hidden": false,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "启用",
+  "permission": "white:enable",
+  "path": "",
+  "orderNum": 999,
+  "componentName": "",
+  "component": "",
+  "status": "0",
+  "remark": "",
+  "meta": {
+    "title": "启用",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-04-28T14:39:01.256Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "626aa71c6b5942532089a9dd"
+  },
+  "children": [],
+  "parentId": "626947faa8b43a3114a82014",
+  "parentName": "白名单",
+  "menuType": "B",
+  "icon": "",
+  "hidden": false,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "禁用",
+  "permission": "white:disable",
+  "path": "",
+  "orderNum": 999,
+  "componentName": "",
+  "component": "",
+  "status": "0",
+  "remark": "",
+  "meta": {
+    "title": "禁用",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-04-28T14:39:24.080Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "626aa7576b5942532089a9df"
+  },
+  "children": [],
+  "parentId": "62694843a8b43a3114a82016",
+  "parentName": "黑名单",
+  "menuType": "B",
+  "icon": "",
+  "hidden": false,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "新增",
+  "permission": "black:add",
+  "path": "",
+  "orderNum": 999,
+  "componentName": "",
+  "component": "",
+  "status": "0",
+  "remark": "",
+  "meta": {
+    "title": "新增",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-04-28T14:40:23.491Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "626aa76e6b5942532089a9e1"
+  },
+  "children": [],
+  "parentId": "62694843a8b43a3114a82016",
+  "parentName": "黑名单",
+  "menuType": "B",
+  "icon": "",
+  "hidden": false,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "编辑",
+  "permission": "black:edit",
+  "path": "",
+  "orderNum": 999,
+  "componentName": "",
+  "component": "",
+  "status": "0",
+  "remark": "",
+  "meta": {
+    "title": "编辑",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-04-28T14:40:46.319Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "626aa7896b5942532089a9e3"
+  },
+  "children": [],
+  "parentId": "62694843a8b43a3114a82016",
+  "parentName": "黑名单",
+  "menuType": "B",
+  "icon": "",
+  "hidden": false,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "删除",
+  "permission": "black:del",
+  "path": "",
+  "orderNum": 999,
+  "componentName": "",
+  "component": "",
+  "status": "0",
+  "remark": "",
+  "meta": {
+    "title": "删除",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-04-28T14:41:13.480Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "626aa7a76b5942532089a9e5"
+  },
+  "children": [],
+  "parentId": "62694843a8b43a3114a82016",
+  "parentName": "黑名单",
+  "menuType": "B",
+  "icon": "",
+  "hidden": false,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "启用",
+  "permission": "black:enable",
+  "path": "",
+  "orderNum": 999,
+  "componentName": "",
+  "component": "",
+  "status": "0",
+  "remark": "",
+  "meta": {
+    "title": "启用",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-04-28T14:41:43.266Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "626aa7bf6b5942532089a9e7"
+  },
+  "children": [],
+  "parentId": "62694843a8b43a3114a82016",
+  "parentName": "黑名单",
+  "menuType": "B",
+  "icon": "",
+  "hidden": false,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "禁用",
+  "permission": "black:disable",
+  "path": "",
+  "orderNum": 999,
+  "componentName": "",
+  "component": "",
+  "status": "0",
+  "remark": "",
+  "meta": {
+    "title": "禁用",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-04-28T14:42:07.461Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "626aa7ef6b5942532089a9e9"
+  },
+  "children": [],
+  "parentId": "626948b1d8eccb39c403b74e",
+  "parentName": "访问时间段",
+  "menuType": "B",
+  "icon": "",
+  "hidden": false,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "新增",
+  "permission": "access:add",
+  "path": "",
+  "orderNum": 999,
+  "componentName": "",
+  "component": "",
+  "status": "0",
+  "remark": "",
+  "meta": {
+    "title": "新增",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-04-28T14:42:55.975Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "626aa8056b5942532089a9eb"
+  },
+  "children": [],
+  "parentId": "626948b1d8eccb39c403b74e",
+  "parentName": "访问时间段",
+  "menuType": "B",
+  "icon": "",
+  "hidden": false,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "编辑",
+  "permission": "access:edit",
+  "path": "",
+  "orderNum": 999,
+  "componentName": "",
+  "component": "",
+  "status": "0",
+  "remark": "",
+  "meta": {
+    "title": "编辑",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-04-28T14:43:17.093Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "626aa81e6b5942532089a9ed"
+  },
+  "children": [],
+  "parentId": "626948b1d8eccb39c403b74e",
+  "parentName": "访问时间段",
+  "menuType": "B",
+  "icon": "",
+  "hidden": false,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "删除",
+  "permission": "access:del",
+  "path": "",
+  "orderNum": 999,
+  "componentName": "",
+  "component": "",
+  "status": "0",
+  "remark": "",
+  "meta": {
+    "title": "删除",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-04-28T14:43:42.098Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "626aa83c6b5942532089a9ef"
+  },
+  "children": [],
+  "parentId": "626948b1d8eccb39c403b74e",
+  "parentName": "访问时间段",
+  "menuType": "B",
+  "icon": "",
+  "hidden": false,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "启用",
+  "permission": "access:enable",
+  "path": "",
+  "orderNum": 999,
+  "componentName": "",
+  "component": "",
+  "status": "0",
+  "remark": "",
+  "meta": {
+    "title": "启用",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-04-28T14:44:12.947Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "626aa85a6b5942532089a9f1"
+  },
+  "children": [],
+  "parentId": "626948b1d8eccb39c403b74e",
+  "parentName": "访问时间段",
+  "menuType": "B",
+  "icon": "",
+  "hidden": false,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "禁用",
+  "permission": "access:disable",
+  "path": "",
+  "orderNum": 999,
+  "componentName": "",
+  "component": "",
+  "status": "0",
+  "remark": "",
+  "meta": {
+    "title": "禁用",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-04-28T14:44:42.561Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "627bdce5eae68b75c8efd044"
+  },
+  "children": [],
+  "parentId": "626946ada8b43a3114a82012",
+  "parentName": "登录管理",
+  "menuType": "C",
+  "icon": "",
+  "hidden": false,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "密码策略",
+  "permission": "policy:list",
+  "path": "policy",
+  "orderNum": 999,
+  "componentName": "Policy",
+  "component": "login/policy",
+  "status": "0",
+  "remark": "",
+  "meta": {
+    "title": "密码策略",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-05-11T15:57:25.231Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "628130cadab6b15f7ca26efc"
+  },
+  "children": [],
+  "parentId": "61d5010ac7699e382c6cc12c",
+  "parentName": "系统管理",
+  "menuType": "C",
+  "icon": "",
+  "hidden": false,
+  "alwaysShow": false,
+  "redirect": "",
+  "menuName": "在线用户",
+  "permission": "online:list",
+  "path": "online",
+  "orderNum": 999,
+  "componentName": "Online",
+  "component": "system/online",
+  "status": "0",
+  "remark": "",
+  "meta": {
+    "title": "在线用户",
+    "icon": "",
+    "noCache": true
+  },
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-05-15T16:56:42.330Z"
+  },
+  "__v": 0
+}]

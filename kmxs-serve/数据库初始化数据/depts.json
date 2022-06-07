@@ -1,0 +1,313 @@
+[{
+  "_id": {
+    "$oid": "625ed53025ab2d62782546ce"
+  },
+  "children": [],
+  "parentId": "0",
+  "parentName": "",
+  "deptName": "孔明科技",
+  "leader": "孔明先生",
+  "phone": "13888888888",
+  "orderNum": 1,
+  "email": "8888888@qq.com",
+  "status": "0",
+  "remark": "",
+  "createBy": "songjq",
+  "createTime": {
+    "$date": "2022-04-19T15:28:48.012Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "625ed5e125ab2d62782546d0"
+  },
+  "children": [],
+  "parentId": "625ed53025ab2d62782546ce",
+  "parentName": "孔明科技",
+  "deptName": "成都分公司",
+  "leader": "",
+  "phone": "",
+  "orderNum": 1,
+  "email": "",
+  "status": "0",
+  "remark": "",
+  "createBy": "songjq",
+  "createTime": {
+    "$date": "2022-04-19T15:31:45.714Z"
+  },
+  "__v": 0,
+  "updateBy": "songjq",
+  "updateTime": {
+    "$date": "2022-04-19T15:34:31.909Z"
+  }
+},{
+  "_id": {
+    "$oid": "625ed5f725ab2d62782546d2"
+  },
+  "children": [],
+  "parentId": "625ed53025ab2d62782546ce",
+  "parentName": "孔明科技",
+  "deptName": "深圳分公司",
+  "leader": "",
+  "phone": "",
+  "orderNum": 999,
+  "email": "",
+  "status": "0",
+  "remark": "",
+  "createBy": "songjq",
+  "createTime": {
+    "$date": "2022-04-19T15:32:07.837Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "625ed60925ab2d62782546d4"
+  },
+  "children": [],
+  "parentId": "625ed53025ab2d62782546ce",
+  "parentName": "孔明科技",
+  "deptName": "武汉分公司",
+  "leader": "",
+  "phone": "",
+  "orderNum": 2,
+  "email": "",
+  "status": "0",
+  "remark": "",
+  "createBy": "songjq",
+  "createTime": {
+    "$date": "2022-04-19T15:32:25.805Z"
+  },
+  "__v": 0,
+  "updateBy": "songjq",
+  "updateTime": {
+    "$date": "2022-04-19T15:34:45.717Z"
+  }
+},{
+  "_id": {
+    "$oid": "625ed61f25ab2d62782546d6"
+  },
+  "children": [],
+  "parentId": "625ed5e125ab2d62782546d0",
+  "parentName": "成都分公司",
+  "deptName": "研发中心",
+  "leader": "",
+  "phone": "",
+  "orderNum": 999,
+  "email": "",
+  "status": "0",
+  "remark": "",
+  "createBy": "songjq",
+  "createTime": {
+    "$date": "2022-04-19T15:32:47.930Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "626189f91e333e42e0303d66"
+  },
+  "children": [],
+  "parentId": "626189e41e333e42e0303d64",
+  "parentName": "111",
+  "deptName": "22232",
+  "leader": "",
+  "phone": "",
+  "orderNum": 999,
+  "email": "",
+  "status": "0",
+  "remark": "",
+  "createBy": "songjq",
+  "createTime": {
+    "$date": "2022-04-21T16:44:41.187Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62638e349982fa0b489e10bc"
+  },
+  "children": [],
+  "parentId": "625ed61f25ab2d62782546d6",
+  "parentName": "研发中心",
+  "deptName": "01",
+  "leader": "",
+  "phone": "",
+  "orderNum": 999,
+  "email": "",
+  "status": "0",
+  "remark": "",
+  "createBy": "songjq",
+  "createTime": {
+    "$date": "2022-04-23T05:27:16.588Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62638ee99982fa0b489e10be"
+  },
+  "children": [],
+  "parentId": "62638e349982fa0b489e10bc",
+  "parentName": "01",
+  "deptName": "02",
+  "leader": "",
+  "phone": "",
+  "orderNum": 999,
+  "email": "",
+  "status": "0",
+  "remark": "",
+  "createBy": "songjq",
+  "createTime": {
+    "$date": "2022-04-23T05:30:17.684Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62638f009982fa0b489e10c0"
+  },
+  "children": [],
+  "parentId": "62638ee99982fa0b489e10be",
+  "parentName": "02",
+  "deptName": "03",
+  "leader": "",
+  "phone": "",
+  "orderNum": 999,
+  "email": "",
+  "status": "0",
+  "remark": "",
+  "createBy": "songjq",
+  "createTime": {
+    "$date": "2022-04-23T05:30:40.558Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "626393c35409505ac8677241"
+  },
+  "children": [],
+  "parentId": "625ed60925ab2d62782546d4",
+  "parentName": "武汉分公司",
+  "deptName": "04",
+  "leader": "",
+  "phone": "",
+  "orderNum": 999,
+  "email": "",
+  "status": "0",
+  "remark": "",
+  "createBy": "songjq",
+  "createTime": {
+    "$date": "2022-04-23T05:50:59.950Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "626393d35409505ac8677243"
+  },
+  "children": [],
+  "parentId": "625ed5f725ab2d62782546d2",
+  "parentName": "深圳分公司",
+  "deptName": "05",
+  "leader": "",
+  "phone": "",
+  "orderNum": 999,
+  "email": "",
+  "status": "0",
+  "remark": "",
+  "createBy": "songjq",
+  "createTime": {
+    "$date": "2022-04-23T05:51:15.209Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6264000222cc7340a4ea0925"
+  },
+  "children": [],
+  "parentId": "625ed60925ab2d62782546d4",
+  "parentName": "武汉分公司",
+  "deptName": "6",
+  "leader": "6",
+  "phone": "",
+  "orderNum": 999,
+  "email": "",
+  "status": "0",
+  "remark": "",
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-04-23T13:32:50.840Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6264009322cc7340a4ea0927"
+  },
+  "children": [],
+  "parentId": "625ed60925ab2d62782546d4",
+  "parentName": "武汉分公司",
+  "deptName": "6",
+  "leader": "6",
+  "phone": "",
+  "orderNum": 999,
+  "email": "6",
+  "status": "0",
+  "remark": "",
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-04-23T13:35:15.691Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "626818b435b6ee064442ce88"
+  },
+  "children": [],
+  "parentId": "625ed53025ab2d62782546ce",
+  "parentName": "孔明科技",
+  "deptName": "日志管理",
+  "leader": "",
+  "phone": "",
+  "orderNum": 999,
+  "email": "",
+  "status": "0",
+  "remark": "",
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-04-26T16:07:16.523Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "626818c435b6ee064442ce8a"
+  },
+  "children": [],
+  "parentId": "626818b435b6ee064442ce88",
+  "parentName": "日志管理",
+  "deptName": "操作日志",
+  "leader": "",
+  "phone": "",
+  "orderNum": 999,
+  "email": "",
+  "status": "0",
+  "remark": "",
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-04-26T16:07:32.218Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "626818cf35b6ee064442ce8c"
+  },
+  "children": [],
+  "parentId": "626818b435b6ee064442ce88",
+  "parentName": "日志管理",
+  "deptName": "登录日志",
+  "leader": "",
+  "phone": "",
+  "orderNum": 999,
+  "email": "",
+  "status": "0",
+  "remark": "",
+  "createBy": "admin",
+  "createTime": {
+    "$date": "2022-04-26T16:07:43.683Z"
+  },
+  "__v": 0
+}]

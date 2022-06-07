@@ -1,0 +1,133 @@
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-image: url(https://api.ixiaowai.cn/gqapi/gqapi.php);
+  // background-image: url(https://api.isoyu.com/aipc_girls.php);
+  // background-image: url(https://api.isoyu.com/bing_images.php);
+  background-size: cover;
+  // 风景 aipc_scenery.php
+  // 美女 aipc_girls.php
+  // 动漫 aipc_animation.php
+  // 动物 aipc_animals.php
+  // 游戏 aipc_game.php
+  // 视觉 aipc_visual.php
+  // 城市 aipc_city.php
+  // 设计 aipc_creative.php
+  // 明星 aipc_stars.php
+}
+
+
+
+.login-form {
+  position: relative;
+  border-radius: 6px;
+  background: #ffffff;
+  width: 385px;
+  padding: 25px;
+  overflow: hidden;
+
+  .login-form-head {
+    position: absolute;
+    top: 5px;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    z-index: 3;
+
+    .icon {
+      color: #fff;
+      width: 100px;
+      background-color: $--color-primary;
+      position: absolute;
+      right: -75px;
+      height: 26px;
+      line-height: 26px;
+      font-size: 16px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      border-radius: 13px 0 0 13px;
+      padding-left: 7px;
+      transition: all 0.3s;
+
+      i {
+        display: block;
+        width: 18px;
+        height: 18px;
+        margin-right: 2px;
+      }
+
+      &:nth-of-type(1) {
+        top: 0;
+      }
+
+      &:nth-of-type(2) {
+        top: 30px;
+      }
+
+      &:nth-of-type(3) {
+        top: 60px;
+      }
+
+      span {
+        display: block;
+        font-size: 12px;
+      }
+
+      &.active,
+      &:hover() {
+        right: -20px;
+      }
+    }
+  }
+
+  .login-form-body {
+    .login-title {
+      margin: 10px auto 30px auto;
+      text-align: center;
+      color: #707070;
+      font-size: 20px;
+    }
+  }
+
+  .login-form-footer {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .el-input__icon {
+    color: #000;
+  }
+}
+
+.el-input__prefix {
+  display: flex;
+  align-items: center;
+
+  .el-input__icon {
+    font-size: 14px;
+  }
+}
+
+.login-tip {
+  font-size: 13px;
+  text-align: center;
+  color: #bfbfbf;
+}
+
+.login-code {
+  margin-left: 10px;
+  width: 130px;
+  display: inline-block;
+
+  img {
+    cursor: pointer;
+    vertical-align: middle;
+    width: 100%;
+    height: 36px;
+    border-radius: 2px;
+    background-color: #cc9966;
+  }
+}

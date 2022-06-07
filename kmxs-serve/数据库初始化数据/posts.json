@@ -1,0 +1,61 @@
+[{
+  "_id": {
+    "$oid": "625edf79046dce4970005825"
+  },
+  "postName": "董事长",
+  "postNo": "ceo",
+  "orderNum": 1,
+  "status": "0",
+  "remark": "",
+  "createBy": "songjq",
+  "date": {
+    "$date": "2022-04-19T16:12:41.876Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "625edffac8d6495a3cee8122"
+  },
+  "postName": "项目经理",
+  "postNo": "se",
+  "orderNum": 2,
+  "status": "0",
+  "remark": "",
+  "createBy": "songjq",
+  "__v": 0,
+  "createTime": {
+    "$date": "2022-04-19T16:14:21.951Z"
+  }
+},{
+  "_id": {
+    "$oid": "625ee024c8d6495a3cee8125"
+  },
+  "postName": "人力资源",
+  "postNo": "hr",
+  "orderNum": 2,
+  "status": "0",
+  "remark": "",
+  "createBy": "songjq",
+  "__v": 0,
+  "createTime": {
+    "$date": "2022-04-19T16:14:21.951Z"
+  },
+  "updateBy": "songjq",
+  "updateTime": {
+    "$date": "2022-04-19T16:16:00.087Z"
+  }
+},{
+  "_id": {
+    "$oid": "625ee031c8d6495a3cee8128"
+  },
+  "postName": "普通员工",
+  "postNo": "user",
+  "orderNum": 999,
+  "status": "0",
+  "remark": "",
+  "createBy": "songjq",
+  "__v": 0,
+  "createTime": {
+    "$date": "2022-04-19T16:14:21.951Z"
+  }
+}]

@@ -1,0 +1,753 @@
+/*
+  颜色变量：
+    $c1-$c15
+
+  文字颜色
+    .ui-c-(c1-c15)
+
+  背景颜色
+    .ui-bg-(c1-c15)
+
+  边框颜色
+    .ui-bd-(c1-c15)
+
+  弹性和模型布局
+    ui-flex
+
+    flex-direction:(布局方向)
+      ui-row,ui-row-reverse,ui-colunm,ui-column-reverse
+
+    flex-wrap:(换行)
+      ui-flex-nowrap,ui-flex-wrap,ui-flex-wrap-reverse
+
+    justify-content:(子元素对齐方向)
+      ui-cont-start,ui-cont-end,ui-cont-center,ui-cont-sb,ui-cont-sa
+
+    align-items:(交叉对齐方向)
+      ui-items-stretch,ui-items-start,ui-items-end,ui-items-center,ui-items-baseline
+
+  table布局模型
+    ui-table,ui-table-row,ui-table-cell
+
+  百分比尺寸宽度
+    w-25,w-33,w-50,w-66,w-75,w-100,h-100
+
+  字体大小 (1-50) 单数
+    ui-size-(1-50)
+
+  定义盒子宽度占比 - (flex1-12)
+    ui-flex-(1-12)
+  
+  定义Margin (2-100) 双数
+    ui-mg-(2-100)
+    ui-mgt-(2-100)
+    ui-mgr-(2-100)
+    ui-mgb-(2-100)
+    ui-mgl-(2-100)
+
+  定义Padding (2-100) 双数
+    ui-pd-(2-100)
+    ui-pdt-(2-100)
+    ui-pdr-(2-100)
+    ui-pdb-(2-100)
+    ui-pdl-(2-100)
+
+  高度 h (2-200) - 双数
+    ui-h-(2-100)
+
+  行高度 lh (2-200) - 双数
+    ui-lh-(2-200)
+  
+  宽度 w (2-200) - 双数
+    ui-w-(2-200)
+
+  圆角 br (1-50) - 单数
+    ui-br-(1-50)
+
+  边框宽度 bd (1-10) - 单数
+    ui-bd-(1-10)
+    ui-bdt-(1-10)
+    ui-bdr-(1-10)
+    ui-bdb-(1-10)
+    ui-bdl-(1-10)
+  
+  边框样式 - (1-10) 常用
+    ui-bs-solid  //  实线
+    ui-bs-dashed  // 虚线
+    ui-bs-dotted  //  点线
+    ui-bs-double  //  双线边框
+
+  文字超过1-3行自动省略
+    .ui-hide-1
+    .ui-hide-2
+    .ui-hide-3
+
+  其他CSS标签定义
+    .ui-inline-block
+    .ui-cous
+    .ui-overflow-hidden
+    .ui-font-left
+    .ui-font-center
+    .ui-font-right
+    .ui-font-bold
+    .ui-word-break 连续数字、英文字母强制换行
+    .ui-boxsizing
+    .ui-tcm  下划线
+*/
+
+/*颜色变量*/
+$c1: #ffffff;
+$c2: #ff0000;
+$c3: #bd10e0;
+$c4: #ff5967;
+$c5: #32c081;
+$c6: #666666;
+$c7: #8ba4af;
+$c8: #35495e;
+$c9: #f5fcf8;
+$c10: #dee9eb;
+$c11: #e4f2ec;
+$c12: #5d6d7e;
+$c13: #f5dbfb;
+$c14: #f5dbfb;
+$c15: #f5dbfb;
+
+/*字体颜色 .ui-c-(c1-c15)*/
+.ui-c-white,
+.ui-c-c1 {
+  color: $c1 !important;
+}
+
+.ui-c-red,
+.ui-c-c2 {
+  color: $c2 !important;
+}
+
+.ui-c-green,
+.ui-c-c3 {
+  color: $c3 !important;
+}
+
+.ui-c-blue,
+.ui-c-c4 {
+  color: $c4 !important;
+}
+
+.ui-c-dark,
+.ui-c-c5 {
+  color: $c5 !important;
+}
+
+.ui-c-light-dark,
+.ui-c-c6 {
+  color: $c6 !important;
+}
+
+.ui-c-black,
+.ui-c-c7 {
+  color: $c7 !important;
+}
+
+.ui-c-warn,
+.ui-c-c8 {
+  color: $c8 !important;
+}
+
+.ui-c-disable,
+.ui-c-c9 {
+  color: $c9 !important;
+}
+
+.ui-c-c10 {
+  color: $c10 !important;
+}
+
+.ui-c-c11 {
+  color: $c11 !important;
+}
+
+.ui-c-c12 {
+  color: $c12 !important;
+}
+
+.ui-c-c13 {
+  color: $c14 !important;
+}
+
+.ui-c-c14 {
+  color: $c14 !important;
+}
+
+.ui-c-c15 {
+  color: $c15 !important;
+}
+
+/*背景颜色 .ui-bg-(c1-c15)*/
+.ui-bg-white,
+.ui-bg-c1 {
+  background-color: $c1 !important;
+}
+
+.ui-bg-red,
+.ui-bg-c2 {
+  background-color: $c2 !important;
+}
+
+.ui-bg-green,
+.ui-bg-c3 {
+  background-color: $c3 !important;
+}
+
+.ui-bg-blue,
+.ui-bg-c4 {
+  background-color: $c4 !important;
+}
+
+.ui-bg-dark,
+.ui-bg-c5 {
+  background-color: $c5 !important;
+}
+
+.ui-bg-light-dark,
+.ui-bg-c6 {
+  background-color: $c6 !important;
+}
+
+.ui-bg-black,
+.ui-bg-c7 {
+  background-color: $c7 !important;
+}
+
+.ui-bg-warn,
+.ui-bg-c8 {
+  background-color: $c8 !important;
+}
+
+.ui-bg-disable,
+.ui-bg-c9 {
+  background-color: $c9 !important;
+}
+
+.ui-bg-c10 {
+  background-color: $c10 !important;
+}
+
+.ui-bg-c11 {
+  background-color: $c11 !important;
+}
+
+.ui-bg-c12 {
+  background-color: $c12 !important;
+}
+
+.ui-bg-c13 {
+  background-color: $c14 !important;
+}
+
+.ui-bg-c14 {
+  background-color: $c14 !important;
+}
+
+.ui-bg-c15 {
+  background-color: $c15 !important;
+}
+
+/*边框颜色 .ui-bd-(c1-c15)*/
+.ui-bd-white,
+.ui-bd-c1 {
+  border-color: $c1 !important;
+}
+
+.ui-bd-red,
+.ui-bd-c2 {
+  border-color: $c2 !important;
+}
+
+.ui-bd-green,
+.ui-bd-c3 {
+  border-color: $c3 !important;
+}
+
+.ui-bd-blue,
+.ui-bd-c4 {
+  border-color: $c4 !important;
+}
+
+.ui-bd-dark,
+.ui-bd-c5 {
+  border-color: $c5 !important;
+}
+
+.ui-bd-light-dark,
+.ui-bd-c6 {
+  border-color: $c6 !important;
+}
+
+.ui-bd-black,
+.ui-bd-c7 {
+  border-color: $c7 !important;
+}
+
+.ui-bd-warn,
+.ui-bd-c8 {
+  border-color: $c8 !important;
+}
+
+.ui-bd-disable,
+.ui-bd-c9 {
+  border-color: $c9 !important;
+}
+
+.ui-bd-c10 {
+  border-color: $c10 !important;
+}
+
+.ui-bd-c11 {
+  border-color: $c11 !important;
+}
+
+.ui-bd-c12 {
+  border-color: $c12 !important;
+}
+
+.ui-bd-c13 {
+  border-color: $c14 !important;
+}
+
+.ui-bd-c14 {
+  border-color: $c14 !important;
+}
+
+.ui-bd-c15 {
+  border-color: $c15 !important;
+}
+
+/*弹性和模型布局 之 父元素*/
+.ui-flex {
+  display: flex;
+}
+
+//flex-direction
+.ui-row {
+  /*横向布局 - 从左到右 （默认）*/
+  flex-direction: row;
+}
+
+.ui-row-reverse {
+  /*横向布局 - 从右到左*/
+  flex-direction: row-reverse;
+}
+
+.ui-column {
+  /*垂直布局 - 从上到下*/
+  flex-direction: column;
+}
+
+.ui-column-reverse {
+  /*垂直布局 - 从下到上*/
+  flex-direction: column-reverse;
+}
+
+//flex-wrap
+.ui-flex-nowrap {
+  // 禁止换行（默认）
+  white-space: nowrap;
+}
+
+.ui-flex-wrap {
+  // 允许换行
+  flex-wrap: wrap;
+}
+
+.ui-flex-wrap-reverse {
+  // 允许换行(第一行在下方)
+  flex-wrap: wrap;
+}
+
+//justify-content
+.ui-cont-start {
+  /*子元素-居左*/
+  justify-content: flex-start;
+}
+
+.ui-cont-end {
+  /*子元素-居右*/
+  justify-content: flex-end;
+}
+
+.ui-cont-center {
+  /*子元素-居中*/
+  justify-content: center;
+}
+
+.ui-cont-sb {
+  /*内容两边对其*/
+  justify-content: space-between;
+}
+
+.ui-cont-sa {
+  /*水平内容平均分配*/
+  justify-content: space-around;
+}
+
+//align-items
+.ui-items-stretch {
+  /*沾满整个屏幕（默认）*/
+  align-items: stretch;
+}
+
+.ui-items-start {
+  /*上对其*/
+  align-items: flex-start;
+}
+
+.ui-items-end {
+  /*下对其*/
+  align-items: flex-end;
+}
+
+.ui-items-center {
+  /*上下居中*/
+  align-items: center;
+}
+
+.ui-cont-baseline {
+  /*文字基线对其*/
+  align-items: baseline;
+}
+
+/*table布局模型*/
+.ui-table {
+  display: table;
+  border-collapse: collapse;
+}
+
+.ui-table-row {
+  display: table-row;
+}
+
+.ui-table-cell {
+  display: table-cell;
+}
+
+/*百分比尺寸宽度*/
+.w-25 {
+  width: 25%;
+}
+
+.w-33 {
+  width: 33%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-66 {
+  width: 66%;
+}
+
+.w-75 {
+  width: 75%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+/*字体大小(1-50)*/
+@for $i from 1 through 50 {
+  .ui-size-#{$i} {
+    font-size: 1px * $i
+  }
+}
+
+/*定义盒子宽度占比 - (flex1-12)*/
+@for $iw from 1 through 12 {
+  .ui-flex-#{$iw} {
+    flex: 1 * $iw
+  }
+}
+
+/*定义Margin (1-200) 双数*/
+@for $iw1 from 0 through 100 {
+  .ui-mg-#{1*$iw1} {
+    margin: 1px * $iw1
+  }
+}
+
+@for $iw1 from 0 through 100 {
+  .ui-mgl-#{1*$iw1} {
+    margin-left: 1px * $iw1
+  }
+}
+
+@for $iw1 from 0 through 100 {
+  .ui-mgr-#{1*$iw1} {
+    margin-right: 1px * $iw1
+  }
+}
+
+@for $iw1 from 0 through 100 {
+  .ui-mgb-#{1*$iw1} {
+    margin-bottom: 1px * $iw1
+  }
+}
+
+@for $iw1 from 0 through 100 {
+  .ui-mgt-#{1*$iw1} {
+    margin-top: 1px * $iw1
+  }
+}
+
+/*定义Padding (1-200) 双数*/
+@for $iw1 from 0 through 100 {
+  .ui-pd-#{1*$iw1} {
+    padding: 1px * $iw1
+  }
+}
+
+@for $iw1 from 0 through 100 {
+  .ui-pdl-#{1*$iw1} {
+    padding-left: 1px * $iw1
+  }
+}
+
+@for $iw1 from 0 through 100 {
+  .ui-pdr-#{1*$iw1} {
+    padding-right: 1px * $iw1
+  }
+}
+
+@for $iw1 from 0 through 100 {
+  .ui-pdb-#{1*$iw1} {
+    padding-bottom: 1px * $iw1
+  }
+}
+
+@for $iw1 from 0 through 100 {
+  .ui-pdt-#{1*$iw1} {
+    padding-top: 1px * $iw1
+  }
+}
+
+/*高度 h (1-200) - 整数*/
+@for $iw3 from 0 through 200 {
+  .ui-h-#{1*$iw3} {
+    height: 1px * $iw3
+  }
+}
+
+/*行高 lh (1-200) - 整数*/
+@for $iw3 from 0 through 200 {
+  .ui-lh-#{1*$iw3} {
+    line-height: 1px * $iw3
+  }
+}
+
+/*宽度 w (1-500) - 整数*/
+@for $iw3 from 0 through 500 {
+  .ui-w-#{1*$iw3} {
+    width: 1px * $iw3
+  }
+}
+
+/*圆角 (1-50) - 单数*/
+@for $iw3 from 0 through 51 {
+  .ui-br-#{$iw3} {
+    border-radius: 1px * $iw3
+  }
+}
+
+/*边框宽度 -  (1-10) - 单数*/
+@for $iw3 from 0 through 10 {
+  .ui-bd-#{$iw3} {
+    border-width: 1px * $iw3;
+  }
+}
+
+@for $iw3 from 0 through 10 {
+  .ui-bdt-#{$iw3} {
+    border-top-width: 1px * $iw3;
+  }
+}
+
+@for $iw3 from 0 through 10 {
+  .ui-bdr-#{$iw3} {
+    border-right-width: 1px * $iw3;
+  }
+}
+
+@for $iw3 from 0 through 10 {
+  .ui-bdb-#{$iw3} {
+    border-bottom-width: 1px * $iw3;
+  }
+}
+
+@for $iw3 from 0 through 10 {
+  .ui-bdl-#{$iw3} {
+    border-left-width: 1px * $iw3;
+  }
+}
+
+/*边框样式 - (1-10)*/
+.ui-bs-solid {
+  border-style: solid;
+}
+
+//  实线边框（常用）
+.ui-bs-dashed {
+  border-style: dashed;
+}
+
+//  在MAC平台上IE4+与WINDOWS和UNIX平台上IE5.5+为虚线。否则为实线（常用）
+.ui-bs-none {
+  border-style: none;
+}
+
+//  无边框。与任何指定的border-width值无关
+.ui-bs-hidden {
+  border-style: hidden;
+}
+
+//  隐藏边框。IE不支持
+.ui-bs-dotted {
+  border-style: dotted;
+}
+
+//  在MAC平台上IE4+与WINDOWS和UNIX平台上IE5.5+为点线。否则为实线（常用）
+.ui-bs-double {
+  border-style: double;
+}
+
+//  双线边框。两条单线与其间隔的和等于指定的border-width值
+.ui-bs-groove {
+  border-style: groove;
+}
+
+//  根据border-color的值画3D凹槽
+.ui-bs-ridge {
+  border-style: ridge;
+}
+
+//  根据border-color的值画菱形边框
+.ui-bs-inset {
+  border-style: inset;
+}
+
+//  根据border-color的值画3D凹边
+.ui-bs-outset {
+  border-style: outset;
+}
+
+//  根据border-color的值画3D凸边
+
+
+/*滚动条默认显示样式*/
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #d8d8d8;
+  height: 50px;
+  outline-offset: -2px;
+  outline: 2px solid #fff;
+  -webkit-border-radius: 4px;
+  border: 0px solid #fff;
+}
+
+::-webkit-scrollbar-track-piece {
+  background-color: #eaeaea;
+  -webkit-border-radius: 0;
+}
+
+/*超出隐藏，展示省略号...*/
+.ui-hide-1 {
+  /* 一行省略 */
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.ui-hide-2 {
+  /* 两行省略 */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.ui-hide-3 {
+  /* 三行省略 */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+/*其他CSS标签定义*/
+.ui-inline-block {
+  display: inline-block;
+}
+
+.ui-cous {
+  /*鼠标手型*/
+  cursor: pointer;
+}
+
+.ui-overflow-hidden {
+  /*超出隐藏*/
+  overflow: hidden;
+}
+
+.ui-clear:after {
+  /*清除浮动*/
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.ui-font-left {
+  /*文字左对齐*/
+  text-align: left;
+}
+
+.ui-font-center {
+  /*文字居中对齐*/
+  text-align: center;
+}
+
+.ui-font-right {
+  /*文字右对齐*/
+  text-align: right;
+}
+
+.ui-font-bold {
+  /*字体加粗*/
+  font-weight: bold;
+}
+
+.ui-word-break {
+  /*连续数字、英文字母强制换行*/
+  word-break: break-all
+}
+
+.ui-relative {
+  position: relative;
+}
+
+.ui-boxsizing {
+  box-sizing: border-box;
+}
+
+.ui-tcm {
+  text-decoration: underline;
+}
